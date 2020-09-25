@@ -1,6 +1,6 @@
 ## Lecture7: 분할 정복
-by: 지은  
-pub date: 2020.9.26.Sat
+by | 지은  
+pub date | 2020.9.26.Sat
 
 > 한 조각과 나머지 전체로 나누는 대신 거의 같은 크기의 부분 문제로 나누기  
 1. **divide** | 문제를 더 작은 문제로 분할
@@ -8,7 +8,7 @@ pub date: 2020.9.26.Sat
 3. **base case** | 더 이상 답을 분할하지 않고 곧장 풀 수 있는 매우 작은 문제  
 
 #### 예제: 수열의 빠른 합과 행렬의 빠른 제곱
-- 기존 recursive([code 6-1](https://github.com/snulion-study/algorithm-int/blob/jieun/jieun/6-1/6-1.cpp))에 비해 함수 호출 횟수가 절반으로 줄어듦
+- 기존 recursive([code 6-1](https://github.com/snulion-study/algorithm-int/blob/jieun/jieun/6-1/6-1.cpp))에 비해 함수 호출 횟수가 절반으로 줄어듦  
 [code 7-1](https://github.com/snulion-study/algorithm-int/blob/jieun/jieun/7-1/7-1.cpp)
 
 ---
@@ -42,7 +42,7 @@ pub date: 2020.9.26.Sat
 - 포인트! `decompress()` 함수에 s를 통째로 전달하는 것이 아니라, s의 한 글자를 가리키는 포인터를 전달(`iterator` 사용)
 - 시간 복잡도: 함수 호출 횟수는 문자열의 길이에 비례 ➡️ `O(n)`
 
-[code 7-5](https://github.com/snulion-study/algorithm-int/blob/jieun/jieun/7-5/7-5.cpp)
+[code 7-5](https://github.com/snulion-study/algorithm-int/blob/jieun/jieun/7-5/7-5.cpp)  
 [code 7-6](https://github.com/snulion-study/algorithm-int/blob/jieun/jieun/7-6/7-6.cpp)
 
 ---

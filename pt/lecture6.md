@@ -1,6 +1,6 @@
 ## Lecture6: 무식하게 풀기
-by: 지은  
-pub date: 2020.9.26.Sat
+by | 지은  
+pub date | 2020.9.26.Sat
 
 ### 재귀 호출과 완전 탐색
 
@@ -63,7 +63,7 @@ pub date: 2020.9.26.Sat
 - 완전 탐색의 방법
 
 #### 예제: 여행하는 외판원
-- 완전 탐색 - 시간 안에 답을 구할 수 있을지 확인
+- 완전 탐색 - 시간 안에 답을 구할 수 있을지 확인  
 [code 6-7](https://github.com/snulion-study/algorithm-int/blob/jieun/jieun/6-7/6-7.cpp)
 
 ---
