@@ -37,6 +37,8 @@ pub date: 2020.9.26.Sat
 
 [code 6-3](https://github.com/snulion-study/algorithm-int/blob/jieun/jieun/6-3/6-3.cpp)
 
+---
+
 ### 문제: 소풍
 - 가능한 조합의 수 ➡️ 완전 탐색  
 - 두 명씩 짝 지어준 후, 아직 짝 짓지 못한 친구들 중에서 다시 재귀 호출
@@ -45,6 +47,7 @@ pub date: 2020.9.26.Sat
 
 [code 6-4](https://github.com/snulion-study/algorithm-int/blob/jieun/jieun/6-4/6-4.cpp)
 
+---
 
 ### 문제: 게임판 덮기  
 - 블록을 놓는 순서는 중요하지 않음 (중복 count 가능성) 
@@ -52,6 +55,8 @@ pub date: 2020.9.26.Sat
 - 이거 너무 어려운 것 같음 난이도(하)라는 것에 충격
 
 [code 6-6](https://github.com/snulion-study/algorithm-int/blob/jieun/jieun/6-6/6-6.cpp)
+
+---
 
 ### 최적화 문제 
 - 문제의 답이 여러 개일 때, 특정 기준에 따라 가장 '좋은' 답 찾아내기
@@ -61,6 +66,8 @@ pub date: 2020.9.26.Sat
 - 완전 탐색 - 시간 안에 답을 구할 수 있을지 확인
 [code 6-7](https://github.com/snulion-study/algorithm-int/blob/jieun/jieun/6-7/6-7.cpp)
 
+---
+
 ### 문제: 시계 맞추기
 - 스위치를 누르는 순서는 중요하지 않음
 - 각 스위치를 몇 번 누를 것인지, 조합의 문제 
@@ -68,6 +75,8 @@ pub date: 2020.9.26.Sat
 - 솔직히 이건 잘 모르겠음 (solve 함수)
 
 [code 6-8](https://github.com/snulion-study/algorithm-int/blob/jieun/jieun/6-8/6-8.cpp)
+
+---
 
 ### 많이 등장하는 완전 탐색 유형  
 - 모든 순열 만들기
