@@ -8,14 +8,14 @@ pub date: 2020.9.26.Sat
 3. base case - 더 이상 답을 분할하지 않고 곧장 풀 수 있는 매우 작은 문제  
 
 #### 예제: 수열의 빠른 합과 행렬의 빠른 제곱
-- 기존 recursive([code 6-1]())에 비해 함수 호출 횟수가 절반으로 줄어듦
-[code 7-1]()
+- 기존 recursive([code 6-1](https://github.com/snulion-study/algorithm-int/blob/jieun/jieun/6-1/6-1.cpp))에 비해 함수 호출 횟수가 절반으로 줄어듦
+[code 7-1](https://github.com/snulion-study/algorithm-int/blob/jieun/jieun/7-1/7-1.cpp)
 
 #### 행렬의 거듭제곱
 - 절반으로 나누는 알고리즘의 효율 저하 케이스
 <img src="images/p180.jpg" alt="p180" width="600px" height="auto" />
 
-[code 7-2]()
+[code 7-2](https://github.com/snulion-study/algorithm-int/blob/jieun/jieun/7-2/7-2.cpp)
 
 #### 병합 정렬과 퀵 정렬  
 - **병합 정렬** | 절반씩 쪼개 나간 후(`O(1)`) 하나의 배열로 합치는 병합 과정에서 `O(n)` 시간 소요  
@@ -34,11 +34,11 @@ pub date: 2020.9.26.Sat
 - 포인트! `decompress()` 함수에 s를 통째로 전달하는 것이 아니라, s의 한 글자를 가리키는 포인터를 전달(`iterator` 사용)
 - 시간 복잡도: 함수 호출 횟수는 문자열의 길이에 비례 ➡️ `O(n)`
 
-[code 7-5]()
-[code 7-6]()
+[code 7-5](https://github.com/snulion-study/algorithm-int/blob/jieun/jieun/7-5/7-5.cpp)
+[code 7-6](https://github.com/snulion-study/algorithm-int/blob/jieun/jieun/7-6/7-6.cpp)
 
 #### 울타리 잘라내기  
 - for문으로 모든 울타리 순회하기 ➡️ `O(n^2)` 시간 소요
-[code 7-7]()
+[code 7-7](https://github.com/snulion-study/algorithm-int/blob/jieun/jieun/7-7/7-7.cpp)
 - 여기도 도움 필요!
-[code 7-8]()
+[code 7-8](https://github.com/snulion-study/algorithm-int/blob/jieun/jieun/7-8/7-8.cpp)
