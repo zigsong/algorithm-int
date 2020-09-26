@@ -1,3 +1,5 @@
+// <see cref="https://www.acmicpc.net/problem/1992" />
+
 #include <iostream>
 
 using namespace std;
@@ -13,8 +15,8 @@ int quadTree(int n, int y, int x) {
   int find = arr[y][x];
   int half = n / 2;
   
-  for (int i=y; i<y+n; i++) {
-    for (int j=x; j<x+n; j++) {
+  for (int i=y; i<y+n; i++) { // 다음 사분면으로 옮겨감
+    for (int j=x; j<x+n; j++) { // 다음 사분면으로 옮겨감 
       if (find != arr[i][j]) {
         cout << "(";
         quadTree(half, y, x);

@@ -1,3 +1,5 @@
+// <see cref="https://www.acmicpc.net/problem/6603" />
+
 #include <iostream>
 #include <vector> 
 
@@ -8,7 +10,7 @@ int lotto[6];
 using namespace std;
 
 void dfs(int n, int depth) {
-  if (depth == 6) {
+  if (depth == 6) { // base case: 6개 다 뽑았다면 
     for (int i=0; i<6; i++) {
       cout << lotto[i] << " ";
     }
@@ -16,14 +18,14 @@ void dfs(int n, int depth) {
     return;
   }
 
-  for (int i=n; i<num; i++) {
+  for (int i=n; i<num; i++) { // 전체 집합에서 현재 뽑은 수만큼 빼고 다시 loop
     lotto[depth] = input[i];
     dfs(i+1, depth+1);
   }
 }
 
 int main() {
-  while(1) { // equivalent to 'while(true)'
+  while(1) { // equivalent to 'while(true)' in C++
     cin >> num;
     if (num == 0) break;
     for (int i=0; i<num; i++) {
