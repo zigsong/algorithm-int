@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 #include <vector>
 
 const int coverType[4][3][2] = {

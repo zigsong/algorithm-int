@@ -1,3 +1,7 @@
+#include <iostream>
+#include <string>
+#include <vector>
+
 // 소풍 문제를 해결하는 재귀 호출 코드
 
 int n;

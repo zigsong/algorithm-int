@@ -1,3 +1,7 @@
+#include <iostream>
+#include <string>
+#include <vector>
+
 // 보글 게임판에서 단어를 찾는 재귀 호출 알고리즘
 const int dx[8] = {-1, -1, -1, 1, 1, 1, 0, 0}
 const int dy[8] = {-1, 0, 1, -1, 0, 1, -1, 1}

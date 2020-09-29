@@ -1,3 +1,6 @@
+#include <iostream>
+#include <string>
+#include <vector>
 // n개의 원소 중 m 개를 고르는 모든 조합을 찾는 알고리즘
 
 #include <iostream>
