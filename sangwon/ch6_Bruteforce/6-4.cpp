@@ -1,3 +1,4 @@
+// 소풍 문제를 해결하는 잘못된 재귀 호출 코드
 int n;
 bool areFriends[10][10];
 
@@ -14,10 +15,4 @@ int countParings(bool taken[10]) {
                 taken[i] = taken[j] = false;
             }
     return ret;
-}
-
-int main() {
-    bool taken[10] = {1, 0, 1, 1, 1, 1, 1, 1, 1, 1};
-    countParings(taken[10]);
-    return 0;
 }
