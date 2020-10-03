@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 #include <vector>
 
 const int INF = 9999, SWITCHES = 10, CLOCKS = 16;

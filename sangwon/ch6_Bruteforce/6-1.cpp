@@ -1,5 +1,6 @@
 #include <iostream>
-
+#include <string>
+#include <vector>
 // 1부터 n까지의 합을 계산하는 반복함수와 재귀함수
 
 int sum(int n) {

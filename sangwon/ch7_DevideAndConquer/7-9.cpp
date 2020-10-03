@@ -1,5 +1,6 @@
-#include <vector>
+#include <iostream>
 #include <string>
+#include <vector>
 
 int hugs(const string& members, const string& fans) {
     int N = members.size(), M = fans.size();
