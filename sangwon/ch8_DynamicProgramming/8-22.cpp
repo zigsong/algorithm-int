@@ -1,6 +1,4 @@
-#include <iostream>
-#include <string>
-#include <vector>
+// 8.22 두니발 박사의 탈옥 문제를 해결하는 완전 탐색 알고리즘
 
 int n, d, p, q;
 

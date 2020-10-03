@@ -1,6 +1,4 @@
-#include <iostream>
-#include <string>
-#include <vector>
+// 8.15 Quantization 문제의 구현
 
 const int INF = 987654321;
 
