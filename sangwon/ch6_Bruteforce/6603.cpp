@@ -5,12 +5,25 @@
 
 using namespace std;
 
-int main(){
-    // vector<int> v;
-    // string input;
-    // getline(cin, input);
-    // cout << input[0] << endl;
-    
+int recursion(int n, vector<int>& picked, int toPick) {
+    // 기저 사례 : 더 뽑을 게 없으면 출력
+    if(toPick == 0) {
+        cout <<  << endl;
+    }
+    for(int i = 0; i < toPick; ++i) {
+        picked.push_back()
+    }
+    return 0;
+}
+
+int printarray(){
+    for(int i=0; i<size; i++) {
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
+}
+
+int scanArray() {
     int size;
     int i = 0;
     scanf("%d", &size);
@@ -19,10 +32,17 @@ int main(){
         scanf(" %d", &arr[i]);
         i++;
     }
+}
+
+int main(){
+    int vector
+
+    int n = 0;
+    int toPick = 6;
+    
+    recursion(n, arr[size], toPick);
 
 
-    for (i=0; i<size; i++) {
-        printf("%d ", arr[i]);
-    }
-    printf("\n");
+
+    return 0;
 }
