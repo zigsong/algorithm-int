@@ -9,7 +9,8 @@ int climb(int days, int climbed) {
     // 기저 사례: m 일이 모두 지났을 때, climbed 가 n 미터를 넘었는지 확인
     if(days == m) return climbed >= n ? 1 : 0;
     // m 일이 모두 지나기 전에도 climbeㅇ >= n 이면 1 반환해도 되지 않나? 아래는 해당 코드
-    if(climbed >= n) return 1;
+    
+    // if(climbed >= n) return 1; 만족하는 경우의 수가 바뀐다!
     
     // 메모이제이션
     int& ret = cache[days][climbed]

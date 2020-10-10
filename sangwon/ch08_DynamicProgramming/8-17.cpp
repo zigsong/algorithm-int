@@ -30,4 +30,5 @@ int path2(int y, int x) {
     
     // ret 값에 해당 위치의 값을 더해준다. y 와 x 는 단순히 좌표에 대한 정보만 가지고 있다
     // ret 값에 합의 정보가 저장되어 있다. 
-    return ret = max(path2(y+1, x), path2(y+1, x+1)) + triangle[y][x]; 
+    return ret = max(path2(y+1, x), path2(y+1, x+1)) + triangle[y][x];
+} 

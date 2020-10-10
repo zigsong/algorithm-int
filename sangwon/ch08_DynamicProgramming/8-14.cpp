@@ -49,5 +49,5 @@ int memorize(int begin) {
             // 해당 출발 지점에서의 기존 난이도 합 ret 과 비교하여 더 작은 값을 저장
             ret = min(ret, memorize(begin + L) + classify(begin, begin + L - 1));
     
-    return ret
+    return ret;
 }

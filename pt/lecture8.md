@@ -302,6 +302,8 @@ int path2(int y, int x) {
 
 <img src="lecture8.assets/제목 없는 노트 - 2020. 10. 3. 오후 3.16 - 2페이지.jpg" alt="제목 없는 노트 - 2020. 10. 3. 오후 3.16 - 2페이지" style="zoom:50%;" />
 
+위 사진  cache 틀림 (9 -> 12)
+
 #### 동적 계획법을 사용하기 위해선
 
 - 최적 부분 구조가 성립하는지를 알아야한다.
@@ -491,7 +493,7 @@ int memorize(int begin) {
             // 해당 출발 지점에서의 기존 난이도 합 ret 과 비교하여 더 작은 값을 저장
             ret = min(ret, memorize(begin + L) + classify(begin, begin + L - 1));
     
-    return ret
+    return ret;
 }
 ```
 
@@ -618,6 +620,7 @@ int path2(int y, int x) {
     // ret 값에 해당 위치의 값을 더해준다. y 와 x 는 단순히 좌표에 대한 정보만 가지고 있다
     // ret 값에 합의 정보가 저장되어 있다. 
     return ret = max(path2(y+1, x), path2(y+1, x+1)) + triangle[y][x]; 
+}
 ```
 
 ---
@@ -631,6 +634,8 @@ int path2(int y, int x) {
 [code 8-18](../sangwon/ch8_DynamicProgramming/8-18.cpp)
 
 ```C++
+// 8.18 우물을 기어오르는 달팽이 문제를 해결하는 동적 계획법 알고리즘
+
 int n, m;
 // cache 는 주어진 변수에 대한 모든 경우의 수를 고려할 수 있는 사이즈로 초기화 [m][2m+1]
 int cache[MAX_N][2*MAX_N+1];
@@ -640,7 +645,8 @@ int climb(int days, int climbed) {
     // 기저 사례: m 일이 모두 지났을 때, climbed 가 n 미터를 넘었는지 확인
     if(days == m) return climbed >= n ? 1 : 0;
     // m 일이 모두 지나기 전에도 climbeㅇ >= n 이면 1 반환해도 되지 않나? 아래는 해당 코드
-    if(climbed >= n) return 1;
+    
+    // if(climbed >= n) return 1; 만족하는 경우의 수가 바뀐다!
     
     // 메모이제이션
     int& ret = cache[days][climbed]
@@ -670,7 +676,7 @@ int asymmetric(int width) {
     
     // width 가 홀수인 경우
     if(width % 2 == 1)
-        // 여기 오타 아닌가?
+        // 여기 오타 아닌가? 아니다! 같은 결과
         // return(tiling(width) - tiling(width/2) + MOD) & MOD;
         return(tiling(width) - tiling((width-1)/2) + MOD) & MOD;
     
