@@ -20,7 +20,7 @@ bool encloses(int a, int b) {
 
 bool isChild(int parent, int child) {
   if (!encloses(parent, child)) return false;
-  // 간접 포함인 경우는 제외 
+  // 포함은 하지만 간접 포함인 경우는 제외 (parent와 child 사이에 i가 껴있는 경우)
   for (int i=0; i<n; ++i) {
     if (i != parent && i != child && encloses(parent, i) && encloses(i, child)) {
       return false;
@@ -38,7 +38,7 @@ struct TreeNode {
 TreeNode* getTree(int root) {
   TreeNode* ret = new TreeNode();
   for (int ch=0; ch<n; ++ch) {
-    // ch 성벽이 root 성벽에 직접적으로 포함되어 있는 경우
+    // ch 성벽이 root 성벽에 (직접) 포함되어 있는 경우
     if (isChild(root, ch)) {
       ret->children.push_back(getTree(ch));
     }

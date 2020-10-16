@@ -16,7 +16,7 @@ void printPostOrder(const vector<int>& preorder, const vector<int>& inorder) {
 
   // 왼쪽 서브트리의 크기
   const int L = find(inorder.begin(), inorder.end(), root) - inorder.begin();
-  // 오른쪽 서브트리의 크기 (전체 크기 - 루트 - 왼쪽 서브트리의 크기 )
+  // 오른쪽 서브트리의 크기 (전체 크기 - 루트 - 왼쪽 서브트리의 크기)
   const int R = N - 1 - L;
 
   // preorder, inorder 각각에서 root는 빼고 왼/오로 나눈 vector를 재귀 함수의 인자로 넣어줌

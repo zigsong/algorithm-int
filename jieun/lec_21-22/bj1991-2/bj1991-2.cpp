@@ -4,7 +4,7 @@
 
 using namespace std;
 
-struct Node{
+struct Node {
   char data;
   Node *left;
   Node *right;
@@ -28,6 +28,7 @@ void inorder_traverse(Node *R){
   if(R->right)
     inorder_traverse(R->right);
 }
+
 void postorder_traverse (Node *R){
   if(R->left)
     postorder_traverse(R->left);
