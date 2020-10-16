@@ -4,7 +4,7 @@ pub date | 2020.10.17.Sat
 
 ---
 
-### 이진 검색 트리의 정의와 조작**
+### 이진 검색 트리의 정의와 조작
 각 노드가 왼/오 최대 두 개의 자식 노드만을 가질 수 있는 트리   
 각 노드의 왼쪽 서브트리에는 해당 노드의 원소보다 작은 원소를 가진 노드들, 
 오른쪽 서브트리에는 해당 노드의 원소보다 큰 원소를 가진 노드들  
@@ -23,7 +23,7 @@ pub date | 2020.10.17.Sat
 🤔 이것도 가능하지 않은지?   
 <img src="lecture22.assets/bst_delete.jpg" width="732px">
 
-🤔 아니면 1)right subtree의 child 중 min node나 2) left subtree의 child 중 max node(leaf 노드)와 현재 삭제할 노드를 바꿔치기 후 순서대로 정렬
+🤔 아니면 1)right subtree의 child 중 min node나 2) left subtree의 child 중 max node(leaf 노드)와 현재 삭제할 노드를 바꿔치기 후 순서대로 정렬  
 [ref1](https://www.geeksforgeeks.org/binary-search-tree-set-2-delete/)  
 [ref2](https://codingstarter.tistory.com/20)   
   
