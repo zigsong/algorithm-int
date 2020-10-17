@@ -12,21 +12,21 @@ struct Node {
 
 Node *nodes;
 
-void preOrder(Node* node) {
+void preorder(Node* node) {
   cout << node->data << endl;
-  if (node->left) preOrder(node->left);
-  if (node->right) preOrder(node->right);
+  if (node->left) preorder(node->left);
+  if (node->right) preorder(node->right);
 };
 
-void inOrder(Node* node) {
-  if (node->left) preOrder(node->left);
+void inorder(Node* node) {
+  if (node->left) inorder(node->left);
   cout << node->data << endl;
-  if (node->right) preOrder(node->right);
+  if (node->right) inorder(node->right);
 };
 
-void postOrder(Node* node) {
-  if (node->left) postOrder(node->left);
-  if (node->right) postOrder(node->right);
+void postorder(Node* node) {
+  if (node->left) postorder(node->left);
+  if (node->right) postorder(node->right);
   cout << node->data << endl;
 };
 
@@ -53,7 +53,7 @@ int main() {
     if (right != '.') rightNode->data = right;
   }
 
-  preOrder(rootNode);
-  // inOrder(rootNode);
-  // postOrder(rootNode);
+  preorder(rootNode);
+  inorder(rootNode);
+  postorder(rootNode);
 }
