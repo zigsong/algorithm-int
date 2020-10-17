@@ -9,7 +9,6 @@ pub date | 2020.9.26.Sat
 - 모든 입력이 항상 base case에 의해 계산될 수 있도록 신경써야 함
 - 주로 input이 0,1일 때 사용 (ref: p.154)
 
-
 ```c++
 
   int recursiveSum(int n) {
