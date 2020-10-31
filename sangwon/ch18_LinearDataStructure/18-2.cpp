@@ -14,7 +14,7 @@ void josephus(int n, int k) {
         // k-1번 다음 사람으로 옮긴다.
         for(int i = 0; i < k-1; ++i) {
             ++kill;
-            if(kill == survivors.end()) kill = survivors.begin()
+            if(kill == survivors.end()) kill = survivors.begin();
         }
     }
     cout << survivors.front() << " " << survivors.back() << endl;
