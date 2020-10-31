@@ -8,7 +8,7 @@ int longest;
 // root 를 루트로 하는 서브트리의 높이를 반환한다.
 int height(TreeNode* root) {
     // 각 자식을 루트로 하는 서브트리의 높이를 계산한다.
-    vector<int> height;
+    vector<int> heights;
     for(int i = 0; i < root->children.size(); ++i)
         heights.push_back(height(root->children[i]));
     // 만약 자식이 하나도 없다면 0을 반환한다.
@@ -18,7 +18,7 @@ int height(TreeNode* root) {
     if (heights.size() >= 2)
         longest = max(longest, 2 + heights[heights.size()-2] + heights[heights.size()-1]);
     // 트리의 높이는 서브트리 높이의 최대치에 1을 더해 계산한다.
-    return  height.back() + 1;
+    return heights.back() + 1;
 }
 // 두 노드 사이의 가장 긴 경로의 길이를 계산한다.
 int solve(TreeNode* root) {
