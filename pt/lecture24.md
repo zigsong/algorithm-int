@@ -21,7 +21,7 @@ ex) 구간 원소들의 합, 곱, 최댓값, 최솟값
 ```c++
 // 24.1 배열의 구간 최소 쿼리(RMQ) 문제를 해결하는 구간 트리의 초기화
 
-// 배열의 구간 최소 쿼리를 해결하기 위한 구간 트리의 ㅜㄱ현
+// 배열의 구간 최소 쿼리를 해결하기 위한 구간 트리의 구현
 struct RMQ {
     // 배열의 길이
     int n;
@@ -59,7 +59,8 @@ struct RMQ {
         // 두 구간이 겹치지 않으면 아주 큰 값을 반환한다 -> 나중에 무시됨
         if(right < nodeLeft || nodeRight < left) return INT_MAX;
         // node 가 표현하는 범위가 array[left..right] 에 완전히 포함되는 경우
-        if(left <= nodeLeft && nodeRight <=  right)
+        if(left <= nodeLeft && nodeRight <= right)
+		// if(nodeLeft <= left && right <= nodeRight)
             return rangeMin[node];
         // 양쪽 구간을 나눠서 푼 뒤 결과를 합친다.
         int mid = (nodeLeft + nodeRight) / 2;
@@ -73,10 +74,13 @@ struct RMQ {
 };
 ```
 
+
+
 ```c++
 // 24.3 RMQ 문제를 푸는 구간 트리에서 갱신 연산의 구현
 
 struct RMQ {
+    // ... 생략 ...
     // array[index]=newValue 로 바뀌었을 때, node를 루트로 하는
     // 구간 트리를 갱신하고 노드가 표현하는 구간의 최소치를 반환한다.
     int update(int index, int newValue, int node, int nodeLeft, int nodeRight) {
@@ -86,9 +90,9 @@ struct RMQ {
         // 트리의 리프까지 내려온 경우
         if(nodeLeft == nodeRight) return rangeMin[node] = newValue;
         int mid = (nodeLeft + nodeRight) / 2;
-        return nrangeMin[node] = min(
-            update(index, newValue, node*2, nodeLeft, mid),
-            update(index, newValue, node*2+1, mid+1, nodeRight));
+        return rangeMin[node] = min(  // rangeMin[1-9]
+            update(index, newValue, node*2, nodeLeft, mid), // rangeMin[1-4]
+            update(index, newValue, node*2+1, mid+1, nodeRight)); // rangeMin[5-9]
     }
     // update() 를 외부에서 호출하기 위한 인터페이스
     int update(int index, int newValue) {
@@ -96,6 +100,16 @@ struct RMQ {
     }
 };
 ```
+
+2 2 2
+
+2 2 3
+
+6 
+
+1 1 1 2 2
+
+2 2 3 3 3
 
 ```c++
 // 24.4 숫자의 최대 출현 회수 문제의 두 개의 답을 합치기
@@ -113,12 +127,12 @@ struct RangeResult {
 };
 
 // 왼쪽 부분 구간의 계산 결과 a, 오른쪽 부분 구간의 계산결과 b를 합친다.
-RangeResult merge(const RangeResult& a, cconst RangeResult& b) {
+RangeResult merge(const RangeResult& a, const RangeResult& b) {
     RangeResult ret;
     // 구간의 크기는 쉽게 계산 가능
     ret.size = a.size + b.size;
     
-    // 왼쪽 숫자는 a.elftNumber로 정해져있다.
+    // 왼쪽 숫자는 a.leftNumber로 정해져있다.
     // 왼쪽 부분 구간이 전부 a.leftNumber인 경우만 별도로 처리
     // 예: [1,1,1,1] 과 [1,2,2,2] 를 합칠 때
     ret.leftNumber = a.leftNumber;
@@ -128,14 +142,14 @@ RangeResult merge(const RangeResult& a, cconst RangeResult& b) {
     
     // 오른쪽 끝 숫자도 비슷하게 계산
     ret.rightNumber = b.rightNumber;
-    ret.rightFreq = b. rightFreq;
+    ret.rightFreq = b.rightFreq;
     if(b.size == b.rightFreq && a.rightNumber == b.rightNumber)
-        ret.leftFreq += a.rightFreq;
+        ret.rightFreq += a.rightFreq;
     
     // 가장 많이 출현하는 수의 빈도수는 둘 중 큰 쪽으로
     // 두 수를 합쳤을 때 mostFrequent 보다 커지는지 확인한다.
     ret.mostFrequent = max(a.mostFrequent, b.mostFrequent);
-    if(a.rightNumber == b.leftNumbe)
+    if(a.rightNumber == b.leftNumber)
         ret.mostFrequent = max(ret.mostFrequent, a.rightFreq + b.leftFreq);
     return ret;
 }
