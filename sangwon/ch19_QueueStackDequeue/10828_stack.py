@@ -12,7 +12,6 @@ for i in range(n):
 
     if len(inputs) == 1:
         action = inputs[0]
-        number = None
 
     if len(inputs) == 2:
         action = inputs[0]
