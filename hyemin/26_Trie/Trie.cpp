@@ -8,7 +8,7 @@
 #include<vector>
 using namespace std;
 
-// 알파벳 소문자를 저장하는 경우 각 노드는 26개의 자손을 가질 수 있다
+// 알파벳 대문자를 저장하는 경우 각 노드는 26개의 자손을 가질 수 있다
 const int ALPHABETS = 26;
 int toNumber(char ch) { return ch - 'A'; }
 
