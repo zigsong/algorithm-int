@@ -61,9 +61,11 @@ struct BipartiteUnionFind {
         return true;
     }
 
+};
+
     // BipartiteUnionFind 인스턴스가 주어질 때,
     // 한 파티에 올 가능성이 있는 최대 인원을 구한다.
-    int maxParty(const BipartiteUnionFind buf) {
+    int maxParty(const BipartiteUnionFind& buf) {
         int ret = 0;
         for(int node = 0; node < n; ++node)
             if(buf.parent[node] == node) {
@@ -78,5 +80,3 @@ struct BipartiteUnionFind {
             }
         return ret;
     }
-
-};
