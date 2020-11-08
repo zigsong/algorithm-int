@@ -228,7 +228,7 @@ TrieNode* readInput(int words) {
 
 
 
-<img src='./lecture26.assets/ahocorasick.png'>
+<img src='./lecture26.assets/ahocorashick.png'>
 
 
 - 실패 함수들을 전처리 과정에서 만든 뒤 문자열의 글자를 순회하는 알고리즘
