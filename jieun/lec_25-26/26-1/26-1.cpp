@@ -20,6 +20,7 @@ struct TrieNode {
     }
   }
 
+  // 문자열 포인터를 사용하여 key+1 => 다음 알파벳으로 이동
   void insert(const char* key) {
     if (*key == 0) terminal = true;
     else {

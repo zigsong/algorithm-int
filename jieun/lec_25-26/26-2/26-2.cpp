@@ -31,6 +31,8 @@ struct TrieNode {
     return children[next]->find(key+1);
   }
 
+  // 한 단어마다 하나의 id
+  // 즉 hello가 있으면 5개 알파벳 각각에 id가 부여되는 것이 아닌, h, he, hell, hello 모두 같은 id 저장
   void insert(const char* key, int id) {
     if (first == -1) first = id;
     // 문자열이 끝났다면 terminal만 바꾸고 종료
