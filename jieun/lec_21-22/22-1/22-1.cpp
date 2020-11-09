@@ -18,6 +18,7 @@ bool isDominated(int x, int y) {
 
 void removeDominated(int x, int y) {
   map<int, int>::iterator it = coords.lower_bound(x);
+  // if map is empty, map.begin() equals to map.end()
   if (it == coords.begin()) return;
   --it;
 
