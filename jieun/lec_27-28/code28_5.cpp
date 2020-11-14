@@ -73,7 +73,7 @@ bool checkEuler() {
         // 모든 정점의 차수는 -1, 1, 0 중 하나
         if (delta < -1 || 1 < delta) return false;
         if (delta == 1) plus1++;
-        if (delta == -1) minus1--;
+        if (delta == -1) minus1++;
     }
 
     // 시작점과 끝점은 각 하나씩 있거나 하나도 없어야 한다
