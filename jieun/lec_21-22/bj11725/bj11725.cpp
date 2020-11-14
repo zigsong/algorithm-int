@@ -46,10 +46,12 @@ int main() {
   //   }
   //   cout << "\n";
   // }
+  
   findParent(1);
 
   for (int i=2; i<=n; i++) {
     cout << parent[i] << "\n";
   }
 
-  return 0
+  return 0;
+}

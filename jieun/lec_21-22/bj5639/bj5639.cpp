@@ -2,7 +2,7 @@
 
 using namespace std;
 
-const int MAX = 10001;
+const int MAX = 10002;
 
 struct Node {
   int left, right;
@@ -10,10 +10,10 @@ struct Node {
 
 Node tree[10002];
 
-void postOrder(int r) {
+void postorder(int r) {
   if (r == 0) return;
-  if (tree[r].left != 0) postOrder(tree[r].left);
-  if (tree[r].right != 0) postOrder(tree[r].right);
+  if (tree[r].left != 0) postorder(tree[r].left);
+  if (tree[r].right != 0) postorder(tree[r].right);
   cout << r << "\n";
 }
 
@@ -44,6 +44,6 @@ int main() {
     }
   }
 
-  postOrder(root);
+  postorder(root);
   return 0;
 }
