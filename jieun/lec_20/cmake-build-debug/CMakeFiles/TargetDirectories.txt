@@ -1,0 +1,7 @@
+/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_20/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_20/cmake-build-debug/CMakeFiles/code20_13.dir
+/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_20/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_20/cmake-build-debug/CMakeFiles/code20_8.dir
+/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_20/cmake-build-debug/CMakeFiles/code20_5.dir
+/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_20/cmake-build-debug/CMakeFiles/code20_2.dir
+/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_20/cmake-build-debug/CMakeFiles/code20_1.dir
