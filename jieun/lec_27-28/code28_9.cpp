@@ -21,7 +21,7 @@ int findCutVertex(int here, bool isRoot) {
     int children = 0;
     for (int i=0; i<adj[here].size(); ++i) {
         int there = adj[here][i];
-        if (discovered[there] == -1) {
+        if (discoverd[there] == -1) {
             ++children;
             // 이 서브트리에서 갈 수 있는 가장 높은 정점의 번호
             int subtree = findCutVertex(there, false);
