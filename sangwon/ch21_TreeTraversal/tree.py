@@ -12,6 +12,19 @@ class TreeNode:
 
     def __str__(self):
         return self.root
-    
-    
+        
 
+a = TreeNode("A")
+b = TreeNode("B")
+c = TreeNode("C")
+
+a.setLeft(b)
+a.setRight(c)
+
+print(a)
+print(a.left)
+print(a.right)
+
+
+# print(b.node)
+# print(a.right)

@@ -1,5 +1,8 @@
 # 23. 우선순위 큐와 힙
 
+by | 상원  
+pub date | 2020.10.31.Sat
+
 ### 우선순위 큐
 
 큐는 선입선출(FIFO) 자료구조
@@ -50,7 +53,7 @@ void push_heap(vector<int>& heap, int newValue) {
     heap.push_back(newValue)
     // 현재 newValue 의 위치
     int idx = heap.size() - 1;
-    // 루트에 도달하거나 enwValue  이상의 원소를 가진 조상을 만날 때까지
+    // 루트에 도달하거나 newValue  이상의 원소를 가진 조상을 만날 때까지
     while(idx > 0 && heap[(idx - 1) / 2] < heap[idx]) {
         swap(heap[idx], heap[(idx - 1) / 2]);
         idx = (idx - 1) / 2;
@@ -98,6 +101,8 @@ void pop_heap(vector<int>& heap) {
 
 ### 23.4 변화하는 중간값
 
+{3, 1, 3, 4, 5, 3, 2, 1, 2,3}
+
 ```c++
 // 23.3 변화하는 중간 값 문제를 트립을 사용해 풀기
 
@@ -115,7 +120,7 @@ int runningMedian(int n, RNG rng) {
 ```
 
 ```c++
-// 23.4 힙을 이용해 변화하는 중갑 값 문제를 해결하는 함수의 구현
+// 23.4 힙을 이용해 변화하는 중간값 문제를 해결하는 함수의 구현
 
 int runningMedian(int n, RNG rng) {
     priority_queue<int, vector<int>, less<int>, > maxHeap;
@@ -132,7 +137,7 @@ int runningMedian(int n, RNG rng) {
             minHeap.push(rng.next());
         // 2번 불변식이 깨졌을 경우 복구하자.
         if(!minHeap.empty() && !maxHeap.top() && minHeap.top() < maxHeap.top()) {
-            int a = maxHeap.pop(), b = minHeap.pop();
+            int a = maxHeap.top(), b = minHeap.top();
             maxHeap.pop(); minHeap.pop();
             maxHeap.push(b);
             minHeap.push(a);
