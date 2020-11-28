@@ -9,6 +9,7 @@
 using namespace std;
 
 int V;
+// pair<정점 번호, 가중치>
 vector<pair<int, int> > adj[MAX_V];
 vector<int> dijkstra(int src) {
     vector<int> dist(V, INF);
@@ -24,6 +25,7 @@ vector<int> dijkstra(int src) {
         for (int i=0; i<adj[here].size(); ++i) {
             int there = adj[here][i].first;
             int nextDist = cost + adj[here][i].second;
+            // dist는 무한대값으로 초기화되어 있음
             if (dist[there] > nextDist) {
                 dist[there] = nextDist;
                 pq.push(make_pair(-nextDist, there));

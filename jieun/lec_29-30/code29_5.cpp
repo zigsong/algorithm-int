@@ -59,7 +59,7 @@ int bidirectional(State start, State finish) {
     while(!q.empty()) {
         State here = q.front();
         q.pop();
-        vector<State> adjacent = here.getAdjacent();ㅈ
+        vector<State> adjacent = here.getAdjacent();
         for (int i=0; i<adjacent.size(); ++i) {
             map<State, int>::iterator it = c.find(adjacent[i]);
             if (it == c.end()) {
