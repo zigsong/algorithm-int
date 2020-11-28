@@ -76,17 +76,6 @@ CMAKE_BINARY_DIR = /Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -97,6 +86,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -131,17 +131,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named code30_1
+# Target rules for targets named code30_6
 
 # Build rule for target.
-code30_1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 code30_1
-.PHONY : code30_1
+code30_6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 code30_6
+.PHONY : code30_6
 
 # fast build rule for target.
-code30_1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/code30_1.dir/build.make CMakeFiles/code30_1.dir/build
-.PHONY : code30_1/fast
+code30_6/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code30_6.dir/build.make CMakeFiles/code30_6.dir/build
+.PHONY : code30_6/fast
+
+#=============================================================================
+# Target rules for targets named code29_5
+
+# Build rule for target.
+code29_5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 code29_5
+.PHONY : code29_5
+
+# fast build rule for target.
+code29_5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code29_5.dir/build.make CMakeFiles/code29_5.dir/build
+.PHONY : code29_5/fast
 
 #=============================================================================
 # Target rules for targets named code29_9
@@ -157,17 +170,69 @@ code29_9/fast:
 .PHONY : code29_9/fast
 
 #=============================================================================
-# Target rules for targets named code29_5
+# Target rules for targets named code30_4
 
 # Build rule for target.
-code29_5: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 code29_5
-.PHONY : code29_5
+code30_4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 code30_4
+.PHONY : code30_4
 
 # fast build rule for target.
-code29_5/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/code29_5.dir/build.make CMakeFiles/code29_5.dir/build
-.PHONY : code29_5/fast
+code30_4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code30_4.dir/build.make CMakeFiles/code30_4.dir/build
+.PHONY : code30_4/fast
+
+#=============================================================================
+# Target rules for targets named code30_1
+
+# Build rule for target.
+code30_1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 code30_1
+.PHONY : code30_1
+
+# fast build rule for target.
+code30_1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code30_1.dir/build.make CMakeFiles/code30_1.dir/build
+.PHONY : code30_1/fast
+
+#=============================================================================
+# Target rules for targets named code30_10
+
+# Build rule for target.
+code30_10: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 code30_10
+.PHONY : code30_10
+
+# fast build rule for target.
+code30_10/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code30_10.dir/build.make CMakeFiles/code30_10.dir/build
+.PHONY : code30_10/fast
+
+#=============================================================================
+# Target rules for targets named code30_5
+
+# Build rule for target.
+code30_5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 code30_5
+.PHONY : code30_5
+
+# fast build rule for target.
+code30_5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code30_5.dir/build.make CMakeFiles/code30_5.dir/build
+.PHONY : code30_5/fast
+
+#=============================================================================
+# Target rules for targets named code30_9
+
+# Build rule for target.
+code30_9: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 code30_9
+.PHONY : code30_9
+
+# fast build rule for target.
+code30_9/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code30_9.dir/build.make CMakeFiles/code30_9.dir/build
+.PHONY : code30_9/fast
 
 #=============================================================================
 # Target rules for targets named code30_2
@@ -343,6 +408,33 @@ code30_1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/code30_1.dir/build.make CMakeFiles/code30_1.dir/code30_1.cpp.s
 .PHONY : code30_1.cpp.s
 
+code30_10.o: code30_10.cpp.o
+
+.PHONY : code30_10.o
+
+# target to build an object file
+code30_10.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code30_10.dir/build.make CMakeFiles/code30_10.dir/code30_10.cpp.o
+.PHONY : code30_10.cpp.o
+
+code30_10.i: code30_10.cpp.i
+
+.PHONY : code30_10.i
+
+# target to preprocess a source file
+code30_10.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code30_10.dir/build.make CMakeFiles/code30_10.dir/code30_10.cpp.i
+.PHONY : code30_10.cpp.i
+
+code30_10.s: code30_10.cpp.s
+
+.PHONY : code30_10.s
+
+# target to generate assembly for a file
+code30_10.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code30_10.dir/build.make CMakeFiles/code30_10.dir/code30_10.cpp.s
+.PHONY : code30_10.cpp.s
+
 code30_2.o: code30_2.cpp.o
 
 .PHONY : code30_2.o
@@ -370,6 +462,114 @@ code30_2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/code30_2.dir/build.make CMakeFiles/code30_2.dir/code30_2.cpp.s
 .PHONY : code30_2.cpp.s
 
+code30_4.o: code30_4.cpp.o
+
+.PHONY : code30_4.o
+
+# target to build an object file
+code30_4.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code30_4.dir/build.make CMakeFiles/code30_4.dir/code30_4.cpp.o
+.PHONY : code30_4.cpp.o
+
+code30_4.i: code30_4.cpp.i
+
+.PHONY : code30_4.i
+
+# target to preprocess a source file
+code30_4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code30_4.dir/build.make CMakeFiles/code30_4.dir/code30_4.cpp.i
+.PHONY : code30_4.cpp.i
+
+code30_4.s: code30_4.cpp.s
+
+.PHONY : code30_4.s
+
+# target to generate assembly for a file
+code30_4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code30_4.dir/build.make CMakeFiles/code30_4.dir/code30_4.cpp.s
+.PHONY : code30_4.cpp.s
+
+code30_5.o: code30_5.cpp.o
+
+.PHONY : code30_5.o
+
+# target to build an object file
+code30_5.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code30_5.dir/build.make CMakeFiles/code30_5.dir/code30_5.cpp.o
+.PHONY : code30_5.cpp.o
+
+code30_5.i: code30_5.cpp.i
+
+.PHONY : code30_5.i
+
+# target to preprocess a source file
+code30_5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code30_5.dir/build.make CMakeFiles/code30_5.dir/code30_5.cpp.i
+.PHONY : code30_5.cpp.i
+
+code30_5.s: code30_5.cpp.s
+
+.PHONY : code30_5.s
+
+# target to generate assembly for a file
+code30_5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code30_5.dir/build.make CMakeFiles/code30_5.dir/code30_5.cpp.s
+.PHONY : code30_5.cpp.s
+
+code30_6.o: code30_6.cpp.o
+
+.PHONY : code30_6.o
+
+# target to build an object file
+code30_6.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code30_6.dir/build.make CMakeFiles/code30_6.dir/code30_6.cpp.o
+.PHONY : code30_6.cpp.o
+
+code30_6.i: code30_6.cpp.i
+
+.PHONY : code30_6.i
+
+# target to preprocess a source file
+code30_6.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code30_6.dir/build.make CMakeFiles/code30_6.dir/code30_6.cpp.i
+.PHONY : code30_6.cpp.i
+
+code30_6.s: code30_6.cpp.s
+
+.PHONY : code30_6.s
+
+# target to generate assembly for a file
+code30_6.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code30_6.dir/build.make CMakeFiles/code30_6.dir/code30_6.cpp.s
+.PHONY : code30_6.cpp.s
+
+code30_9.o: code30_9.cpp.o
+
+.PHONY : code30_9.o
+
+# target to build an object file
+code30_9.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code30_9.dir/build.make CMakeFiles/code30_9.dir/code30_9.cpp.o
+.PHONY : code30_9.cpp.o
+
+code30_9.i: code30_9.cpp.i
+
+.PHONY : code30_9.i
+
+# target to preprocess a source file
+code30_9.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code30_9.dir/build.make CMakeFiles/code30_9.dir/code30_9.cpp.i
+.PHONY : code30_9.cpp.i
+
+code30_9.s: code30_9.cpp.s
+
+.PHONY : code30_9.s
+
+# target to generate assembly for a file
+code30_9.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code30_9.dir/build.make CMakeFiles/code30_9.dir/code30_9.cpp.s
+.PHONY : code30_9.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -383,7 +583,12 @@ help:
 	@echo "... code29_5"
 	@echo "... code29_9"
 	@echo "... code30_1"
+	@echo "... code30_10"
 	@echo "... code30_2"
+	@echo "... code30_4"
+	@echo "... code30_5"
+	@echo "... code30_6"
+	@echo "... code30_9"
 	@echo "... code29_1.o"
 	@echo "... code29_1.i"
 	@echo "... code29_1.s"
@@ -399,9 +604,24 @@ help:
 	@echo "... code30_1.o"
 	@echo "... code30_1.i"
 	@echo "... code30_1.s"
+	@echo "... code30_10.o"
+	@echo "... code30_10.i"
+	@echo "... code30_10.s"
 	@echo "... code30_2.o"
 	@echo "... code30_2.i"
 	@echo "... code30_2.s"
+	@echo "... code30_4.o"
+	@echo "... code30_4.i"
+	@echo "... code30_4.s"
+	@echo "... code30_5.o"
+	@echo "... code30_5.i"
+	@echo "... code30_5.s"
+	@echo "... code30_6.o"
+	@echo "... code30_6.i"
+	@echo "... code30_6.s"
+	@echo "... code30_9.o"
+	@echo "... code30_9.i"
+	@echo "... code30_9.s"
 .PHONY : help
 
 

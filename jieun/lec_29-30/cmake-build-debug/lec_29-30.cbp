@@ -17,6 +17,16 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug"/>
 				<Option type="4"/>
@@ -27,8 +37,8 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="code30_1">
-				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/code30_1" prefix_auto="0" extension_auto="0"/>
+			<Target title="code30_6">
+				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/code30_6" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -42,14 +52,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 code30_1"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 code30_6"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="code30_1/fast">
-				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/code30_1" prefix_auto="0" extension_auto="0"/>
+			<Target title="code30_6/fast">
+				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/code30_6" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -63,49 +73,7 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 code30_1/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="code29_9">
-				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/code29_9" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="clang"/>
-				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 code29_9"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="code29_9/fast">
-				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/code29_9" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="clang"/>
-				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 code29_9/fast"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 code30_6/fast"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -153,11 +121,253 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
+			<Target title="code29_9">
+				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/code29_9" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug"/>
-				<Option type="4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 code29_9"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="code29_9/fast">
+				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/code29_9" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 code29_9/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="code30_4">
+				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/code30_4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 code30_4"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="code30_4/fast">
+				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/code30_4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 code30_4/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="code30_1">
+				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/code30_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 code30_1"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="code30_1/fast">
+				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/code30_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 code30_1/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="code30_10">
+				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/code30_10" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 code30_10"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="code30_10/fast">
+				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/code30_10" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 code30_10/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="code30_5">
+				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/code30_5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 code30_5"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="code30_5/fast">
+				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/code30_5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 code30_5/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="code30_9">
+				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/code30_9" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 code30_9"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="code30_9/fast">
+				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/code30_9" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 code30_9/fast"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -305,8 +515,23 @@
 		<Unit filename="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/code30_1.cpp">
 			<Option target="code30_1"/>
 		</Unit>
+		<Unit filename="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/code30_10.cpp">
+			<Option target="code30_10"/>
+		</Unit>
 		<Unit filename="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/code30_2.cpp">
 			<Option target="code30_2"/>
+		</Unit>
+		<Unit filename="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/code30_4.cpp">
+			<Option target="code30_4"/>
+		</Unit>
+		<Unit filename="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/code30_5.cpp">
+			<Option target="code30_5"/>
+		</Unit>
+		<Unit filename="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/code30_6.cpp">
+			<Option target="code30_6"/>
+		</Unit>
+		<Unit filename="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/code30_9.cpp">
+			<Option target="code30_9"/>
 		</Unit>
 		<Unit filename="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_29-30/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
