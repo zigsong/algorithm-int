@@ -6,7 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_31-32/code31_1.cpp" "/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_31-32/cmake-build-debug/CMakeFiles/code31_1.dir/code31_1.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

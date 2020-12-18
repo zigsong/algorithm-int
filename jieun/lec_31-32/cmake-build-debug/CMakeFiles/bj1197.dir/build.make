@@ -80,15 +80,15 @@ include CMakeFiles/bj1197.dir/flags.make
 CMakeFiles/bj1197.dir/bj1197.cpp.o: CMakeFiles/bj1197.dir/flags.make
 CMakeFiles/bj1197.dir/bj1197.cpp.o: ../bj1197.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_31-32/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/bj1197.dir/bj1197.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bj1197.dir/bj1197.cpp.o -c /Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_31-32/bj1197.cpp
+	/usr/local/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bj1197.dir/bj1197.cpp.o -c /Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_31-32/bj1197.cpp
 
 CMakeFiles/bj1197.dir/bj1197.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bj1197.dir/bj1197.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_31-32/bj1197.cpp > CMakeFiles/bj1197.dir/bj1197.cpp.i
+	/usr/local/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_31-32/bj1197.cpp > CMakeFiles/bj1197.dir/bj1197.cpp.i
 
 CMakeFiles/bj1197.dir/bj1197.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bj1197.dir/bj1197.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_31-32/bj1197.cpp -o CMakeFiles/bj1197.dir/bj1197.cpp.s
+	/usr/local/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_31-32/bj1197.cpp -o CMakeFiles/bj1197.dir/bj1197.cpp.s
 
 # Object files for target bj1197
 bj1197_OBJECTS = \

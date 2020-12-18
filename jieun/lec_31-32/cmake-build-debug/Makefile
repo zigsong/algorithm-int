@@ -131,6 +131,58 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named bj6086
+
+# Build rule for target.
+bj6086: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bj6086
+.PHONY : bj6086
+
+# fast build rule for target.
+bj6086/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bj6086.dir/build.make CMakeFiles/bj6086.dir/build
+.PHONY : bj6086/fast
+
+#=============================================================================
+# Target rules for targets named bj1197
+
+# Build rule for target.
+bj1197: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bj1197
+.PHONY : bj1197
+
+# fast build rule for target.
+bj1197/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bj1197.dir/build.make CMakeFiles/bj1197.dir/build
+.PHONY : bj1197/fast
+
+#=============================================================================
+# Target rules for targets named code32_7
+
+# Build rule for target.
+code32_7: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 code32_7
+.PHONY : code32_7
+
+# fast build rule for target.
+code32_7/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code32_7.dir/build.make CMakeFiles/code32_7.dir/build
+.PHONY : code32_7/fast
+
+#=============================================================================
+# Target rules for targets named code32_6
+
+# Build rule for target.
+code32_6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 code32_6
+.PHONY : code32_6
+
+# fast build rule for target.
+code32_6/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code32_6.dir/build.make CMakeFiles/code32_6.dir/build
+.PHONY : code32_6/fast
+
+#=============================================================================
 # Target rules for targets named code31_2
 
 # Build rule for target.
@@ -170,17 +222,17 @@ code32_1/fast:
 .PHONY : code32_1/fast
 
 #=============================================================================
-# Target rules for targets named bj1197
+# Target rules for targets named code32_5
 
 # Build rule for target.
-bj1197: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bj1197
-.PHONY : bj1197
+code32_5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 code32_5
+.PHONY : code32_5
 
 # fast build rule for target.
-bj1197/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bj1197.dir/build.make CMakeFiles/bj1197.dir/build
-.PHONY : bj1197/fast
+code32_5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code32_5.dir/build.make CMakeFiles/code32_5.dir/build
+.PHONY : code32_5/fast
 
 #=============================================================================
 # Target rules for targets named code31_1
@@ -221,6 +273,33 @@ bj1197.s: bj1197.cpp.s
 bj1197.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bj1197.dir/build.make CMakeFiles/bj1197.dir/bj1197.cpp.s
 .PHONY : bj1197.cpp.s
+
+bj6086.o: bj6086.cpp.o
+
+.PHONY : bj6086.o
+
+# target to build an object file
+bj6086.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bj6086.dir/build.make CMakeFiles/bj6086.dir/bj6086.cpp.o
+.PHONY : bj6086.cpp.o
+
+bj6086.i: bj6086.cpp.i
+
+.PHONY : bj6086.i
+
+# target to preprocess a source file
+bj6086.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bj6086.dir/build.make CMakeFiles/bj6086.dir/bj6086.cpp.i
+.PHONY : bj6086.cpp.i
+
+bj6086.s: bj6086.cpp.s
+
+.PHONY : bj6086.s
+
+# target to generate assembly for a file
+bj6086.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bj6086.dir/build.make CMakeFiles/bj6086.dir/bj6086.cpp.s
+.PHONY : bj6086.cpp.s
 
 code31_1.o: code31_1.cpp.o
 
@@ -330,6 +409,87 @@ code32_2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/code32_2.dir/build.make CMakeFiles/code32_2.dir/code32_2.cpp.s
 .PHONY : code32_2.cpp.s
 
+code32_5.o: code32_5.cpp.o
+
+.PHONY : code32_5.o
+
+# target to build an object file
+code32_5.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code32_5.dir/build.make CMakeFiles/code32_5.dir/code32_5.cpp.o
+.PHONY : code32_5.cpp.o
+
+code32_5.i: code32_5.cpp.i
+
+.PHONY : code32_5.i
+
+# target to preprocess a source file
+code32_5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code32_5.dir/build.make CMakeFiles/code32_5.dir/code32_5.cpp.i
+.PHONY : code32_5.cpp.i
+
+code32_5.s: code32_5.cpp.s
+
+.PHONY : code32_5.s
+
+# target to generate assembly for a file
+code32_5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code32_5.dir/build.make CMakeFiles/code32_5.dir/code32_5.cpp.s
+.PHONY : code32_5.cpp.s
+
+code32_6.o: code32_6.cpp.o
+
+.PHONY : code32_6.o
+
+# target to build an object file
+code32_6.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code32_6.dir/build.make CMakeFiles/code32_6.dir/code32_6.cpp.o
+.PHONY : code32_6.cpp.o
+
+code32_6.i: code32_6.cpp.i
+
+.PHONY : code32_6.i
+
+# target to preprocess a source file
+code32_6.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code32_6.dir/build.make CMakeFiles/code32_6.dir/code32_6.cpp.i
+.PHONY : code32_6.cpp.i
+
+code32_6.s: code32_6.cpp.s
+
+.PHONY : code32_6.s
+
+# target to generate assembly for a file
+code32_6.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code32_6.dir/build.make CMakeFiles/code32_6.dir/code32_6.cpp.s
+.PHONY : code32_6.cpp.s
+
+code32_7.o: code32_7.cpp.o
+
+.PHONY : code32_7.o
+
+# target to build an object file
+code32_7.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code32_7.dir/build.make CMakeFiles/code32_7.dir/code32_7.cpp.o
+.PHONY : code32_7.cpp.o
+
+code32_7.i: code32_7.cpp.i
+
+.PHONY : code32_7.i
+
+# target to preprocess a source file
+code32_7.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code32_7.dir/build.make CMakeFiles/code32_7.dir/code32_7.cpp.i
+.PHONY : code32_7.cpp.i
+
+code32_7.s: code32_7.cpp.s
+
+.PHONY : code32_7.s
+
+# target to generate assembly for a file
+code32_7.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code32_7.dir/build.make CMakeFiles/code32_7.dir/code32_7.cpp.s
+.PHONY : code32_7.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -339,13 +499,20 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... bj1197"
+	@echo "... bj6086"
 	@echo "... code31_1"
 	@echo "... code31_2"
 	@echo "... code32_1"
 	@echo "... code32_2"
+	@echo "... code32_5"
+	@echo "... code32_6"
+	@echo "... code32_7"
 	@echo "... bj1197.o"
 	@echo "... bj1197.i"
 	@echo "... bj1197.s"
+	@echo "... bj6086.o"
+	@echo "... bj6086.i"
+	@echo "... bj6086.s"
 	@echo "... code31_1.o"
 	@echo "... code31_1.i"
 	@echo "... code31_1.s"
@@ -358,6 +525,15 @@ help:
 	@echo "... code32_2.o"
 	@echo "... code32_2.i"
 	@echo "... code32_2.s"
+	@echo "... code32_5.o"
+	@echo "... code32_5.i"
+	@echo "... code32_5.s"
+	@echo "... code32_6.o"
+	@echo "... code32_6.i"
+	@echo "... code32_6.s"
+	@echo "... code32_7.o"
+	@echo "... code32_7.i"
+	@echo "... code32_7.s"
 .PHONY : help
 
 

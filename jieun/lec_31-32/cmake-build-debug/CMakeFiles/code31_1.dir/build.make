@@ -80,15 +80,15 @@ include CMakeFiles/code31_1.dir/flags.make
 CMakeFiles/code31_1.dir/code31_1.cpp.o: CMakeFiles/code31_1.dir/flags.make
 CMakeFiles/code31_1.dir/code31_1.cpp.o: ../code31_1.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_31-32/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/code31_1.dir/code31_1.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/code31_1.dir/code31_1.cpp.o -c /Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_31-32/code31_1.cpp
+	/usr/local/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/code31_1.dir/code31_1.cpp.o -c /Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_31-32/code31_1.cpp
 
 CMakeFiles/code31_1.dir/code31_1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/code31_1.dir/code31_1.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_31-32/code31_1.cpp > CMakeFiles/code31_1.dir/code31_1.cpp.i
+	/usr/local/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_31-32/code31_1.cpp > CMakeFiles/code31_1.dir/code31_1.cpp.i
 
 CMakeFiles/code31_1.dir/code31_1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code31_1.dir/code31_1.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_31-32/code31_1.cpp -o CMakeFiles/code31_1.dir/code31_1.cpp.s
+	/usr/local/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_31-32/code31_1.cpp -o CMakeFiles/code31_1.dir/code31_1.cpp.s
 
 # Object files for target code31_1
 code31_1_OBJECTS = \

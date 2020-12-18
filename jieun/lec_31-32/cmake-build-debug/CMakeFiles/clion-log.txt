@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_31-32
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_COMPILER=/usr/local/bin/g++-9 -G "CodeBlocks - Unix Makefiles" /Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_31-32
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /Users/songji/Desktop/algorithm-study/algorithm-int/jieun/lec_31-32/cmake-build-debug
