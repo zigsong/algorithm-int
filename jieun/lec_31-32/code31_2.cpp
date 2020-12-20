@@ -23,6 +23,7 @@ int prim(vector<pair<int, int> >& selected) {
     for (int iter=0; iter<V; ++iter) {
         // 다음에 트리에 추가할 정점 u 찾기
         int u = -1;
+        // 아래 for문은 인접한 정점들의 minWeight를 가지고 실제 tree를 만들기 위한 loop
         for (int v=0; v<V; ++v) {
             if (!added[v] && (u == -1 || minWeight[u] > minWeight[v])) {
                 u = v;
@@ -35,6 +36,7 @@ int prim(vector<pair<int, int> >& selected) {
         ret += minWeight[u];
         added[u] = true;
         // u를 넣고 난 후, u에 인접한 간선 (u,v)들을 검사
+        // 아래 for문은 다음 정점에서의 minWeight를 만들어주기 위한 loop
         for (int i=0; i<adj[u].size(); ++i) {
             int v = adj[u][i].first, weight = adj[u][i].second;
             if (!added[v] && minWeight[v] > weight) {

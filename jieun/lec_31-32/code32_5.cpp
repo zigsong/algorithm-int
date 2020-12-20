@@ -21,7 +21,12 @@ bool dfs(int a) {
     for (int b=0; b<m; ++b) {
         // a에서 b로 가는 경로가 있을 때
         if (adj[a][b]) {
-            // b가 아직 매칭되지 않았다면 바로 연결 || b가 이미 매칭되어 있다면 bMatch[b]에서부터 시작해 증가 경로 찾기
+            // b가 아직 매칭되지 않았다면 바로 연결
+            // b가 이미 매칭되어 있다면 bMatch[b]에서부터 시작해 증가 경로 찾기
+            // b가 이미 매칭되었다면 다음 경로는 싱크로 가는 간선 뿐!
+            // 여기에 잔여 용량은 없을 것이기 때문에, b로 들어오는 유량을 상쇄
+            // 따라서 바로 dfs 호출, dfs(a')가 되는 셈
+            // 이때 문제 없이 dfs(bMatch[b]) = true를 뱉으면..? 뭘까요
             if (bMatch[b] == -1 || dfs(bMatch[b])) {
                 // 증가 경로 발견! a와 b 매칭
                 aMatch[a] = b;
@@ -39,7 +44,8 @@ int bipartiteMatch() {
     int size = 0;
     for (int start=0; start<n; ++start) {
         visited = vector<bool>(n, false);
-        if (dfs(start)) ++ size;
+        // a에서 b로 가는 경로를 찾았다면 총 유량 +1
+        if (dfs(start)) ++size;
     }
     return size;
 }
