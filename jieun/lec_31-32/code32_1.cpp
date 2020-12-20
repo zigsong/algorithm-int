@@ -21,7 +21,7 @@ int networkFlow(int source, int sink) {
         queue<int> q;
         parent[source] = source;
         q.push(source);
-        while (!q.empty() && parent[sink] == 1) {
+        while (!q.empty() && parent[sink] == -1) {
             int here = q.front();
             q.pop();
             for (int there=0; there<V; ++there) {
