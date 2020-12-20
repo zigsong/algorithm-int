@@ -1,0 +1,1 @@
+/usr/local/bin/g++-9  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/bj1197.dir/bj1197.cpp.o  -o bj1197 
