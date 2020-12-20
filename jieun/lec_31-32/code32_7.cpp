@@ -20,7 +20,6 @@ int adj[64][64];
 int bipartiteMatch();
 int placeBishops() {
     memset(id, -1, sizeof(id));
-    // 비숍을 놓은 칸, 그로 인해 비숍을 놓지 못하게 된 칸
     int count[2] = { 0, 0 };
     for (int dir=0; dir<2; ++dir) {
         for (int y=0; y<board.size(); ++y) {
@@ -40,13 +39,13 @@ int placeBishops() {
         }
     }
 
-    n = count[0]; // 비숍 놓은 칸들의 좌표 (cy, cx)
-    m = count[1]; // 비숍 놓지 못한 칸들의 좌표 (cy, cx)
+    n = count[0]; // 왼쪽 아래 방향의 대각선에 놓인 비숍의 개수
+    m = count[1]; // 오른쪽 아래 방향의 대각선에 놓인 비숍의 개수
     memset(adj, 0, sizeof(adj));
     for (int y=0; y<board.size(); ++y) {
         for (int x=0; x<board.size(); ++x) {
             if (board[y][x] == '.') {
-                // 비숍 놓은 칸, 그로 인해 놓지 못하게 된 칸 매칭시켜 주는 건가? 모르겠음
+                // 연결된 애들끼리 맺어 줌
                 adj[id[0][y][x]][id[1][y][x]] = 1;
             }
         }
