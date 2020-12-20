@@ -1,0 +1,11 @@
+project(lec_31-32)
+
+add_executable(code31_1 code31_1.cpp)
+add_executable(code31_2 code31_2.cpp)
+add_executable(code32_1 code32_1.cpp)
+add_executable(code32_2 code32_2.cpp)
+add_executable(code32_5 code32_5.cpp)
+add_executable(code32_6 code32_6.cpp)
+add_executable(code32_7 code32_7.cpp)
+add_executable(bj1197 bj1197.cpp)
+add_executable(bj6086 bj6086.cpp)
