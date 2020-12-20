@@ -1,7 +1,22 @@
 // 29.8 15-퍼즐 문제를 해결하는 점점 깊어지는 탐색 알고리즘
 
+#include <vector>
+#include <queue>
+#include <algorithm>
+#include <map>
+#include <iostream>
+using namespace std;
+
 // 15-퍼즐 문제의 상태를 표현하는 클래스
-class State;
+class State {
+    // 인접한 상태들의 목록을 반환한다.
+    vector<State> getAdjacent() const;
+
+    // map 에 state 를 넣기 위한 비교 연산자
+    bool operator < (const State& rhs) const;
+    // 종료 상태와 비교하기 위한 연산자
+    bool operator == (const State& rhs) const;
+};
 int best;
 // 깊이 우선 탐색
 void dfs(State here, const State& finish, int steps) {

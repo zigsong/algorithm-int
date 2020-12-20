@@ -1,5 +1,12 @@
 // 29.2 최단 경로를 계산하는 너비 우선 탐색
 
+#include <vector>
+#include <queue>
+#include <algorithm>
+#include <map>
+using namespace std;
+
+vector<vector<int>> adj;
 // start 에서 시작해 그래프를 너비 우선 탐색하고 시작점부터 각 정점까지의
 // 최단 거리와 너비 우선 탐색 스패닝 트리를 계산하낟.
 // distance[i] = start 부터 i 까지의 최단 거리

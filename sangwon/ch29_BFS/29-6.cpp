@@ -1,5 +1,11 @@
 // 29.6 15-퍼즐을 해결하는 너비 우선 탐색 알고리즘
 
+#include <vector>
+#include <queue>
+#include <algorithm>
+#include <map>
+using namespace std;
+
 // 게임판의 상태를 표현한다.
 class State {
     // 인접한 상태들의 목록을 반환한다.

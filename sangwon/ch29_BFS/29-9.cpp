@@ -1,5 +1,13 @@
 // 29.9 하노이의 탑 문제를 해결하는 너비 우선 탐색 코드
 
+#include <vector>
+#include <queue>
+#include <algorithm>
+#include <map>
+#include <iostream>
+#include <string.h>
+using namespace std;
+
 const int MAX_DISCS = 12;
 // 비트마스크를 사용해서 32비트 정수를 배열처럼 사용??
 int get(int state, int index) {

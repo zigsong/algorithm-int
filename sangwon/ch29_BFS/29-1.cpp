@@ -1,5 +1,9 @@
 // 29.1 그래프의 너비 우선 탐색
 
+#include <vector>
+#include <queue>
+using namespace std;
+
 // 그래프의 인접 리스트 표현
 vector<vector<int>> adj;
 
