@@ -1,4 +1,11 @@
 // 28.1 그래프의 깊이 우선 탐색
+#include <vector>
+#include <queue>
+#include <algorithm>
+#include <map>
+#include <iostream>
+#include <string.h>
+using namespace std;
 
 // 그래프의 인접 리스트 표현
 vector<vector<int> > adj;

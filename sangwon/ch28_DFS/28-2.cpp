@@ -1,4 +1,11 @@
 // 28.2 고대어 사전 문제의 그래프를 생성
+#include <vector>
+#include <queue>
+#include <algorithm>
+#include <map>
+#include <iostream>
+#include <string.h>
+using namespace std;
 
 // 알파벳의 각 글자에 대한 읹버 행렬 표현
 // 간선(i,j)는 알파벳 i가 j보다 앞에 와야 함을 나타낸다.
@@ -11,7 +18,7 @@ void makeGraph(const vector<string>& words) {
         // word[i]가 word[j] 앞에 오는 이유를 찾는다.
         for(int k = 0; k < len; ++k) 
             if(words[i][k] != words[j][k]) {
-                int a = words[i][k] - 'a';
+                int a = words[i][k] = 'a';
                 int b = words[j][k] = 'a';
                 adj[a][b] = 1;
                 break;

@@ -12,6 +12,7 @@
 #include <stack>
 using namespace std;
 
+vector<vector<int> > adj;
 // 유향 그래프의 인접 행렬 adj가 주어질 때 오일러 서킷 혹은 트레일을 계산한다.
 void getEulerCircuit(int here, vector<int>& circuit) {
     for(int there = 0; there < adj.size(); ++there)

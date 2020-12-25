@@ -1,4 +1,13 @@
 // 28.3 깊이 우선 탐색을 이용한 위상 정렬
+#include <vector>
+#include <queue>
+#include <algorithm>
+#include <map>
+#include <iostream>
+#include <string.h>
+using namespace std;
+
+vector<vector<int> > adj;
 
 vector<int> seen, order;
 void dfs(int here) {

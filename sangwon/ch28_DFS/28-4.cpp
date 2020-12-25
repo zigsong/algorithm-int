@@ -1,4 +1,11 @@
 // 28.4 깊이 우선 탐색을 이용한 오일러 서킷 찾기
+#include <vector>
+#include <queue>
+#include <algorithm>
+#include <map>
+#include <iostream>
+#include <string.h>
+using namespace std;
 
 // 그래프의 인접 행렬 표현. adj[i][j] = i 와 j 사이의 간선 수
 vector<vector<int> > adj;
