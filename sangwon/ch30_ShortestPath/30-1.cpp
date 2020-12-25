@@ -1,4 +1,11 @@
 // 30.1 다익스트라의 최단 거리 알고리즘의 구현
+#include <vector>
+#include <queue>
+#include <algorithm>
+#include <map>
+#include <iostream>
+#include <string.h>
+using namespace std;
 
 // 정점의 개수
 int V;
