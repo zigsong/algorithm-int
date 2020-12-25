@@ -1,3 +1,11 @@
+#include <vector>
+#include <queue>
+#include <algorithm>
+#include <map>
+#include <iostream>
+#include <string.h>
+using namespace std;
+
 const int MOD = 10007;
 int cache[101][1001];
 

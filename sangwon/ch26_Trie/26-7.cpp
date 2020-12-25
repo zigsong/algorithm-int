@@ -1,3 +1,11 @@
+#include <vector>
+#include <queue>
+#include <algorithm>
+#include <map>
+#include <iostream>
+#include <string.h>
+using namespace std;
+
 vector<pair<int, int> > ahoCorasick(const string& s, TrieNode* root) {
     vector<pair<int,int> > ret;
     TrieNode* state = root;
