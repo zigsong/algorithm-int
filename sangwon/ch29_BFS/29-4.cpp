@@ -1,5 +1,11 @@
 // 29.4 Sorting Game 문제를 "빠르게" 해결
 
+#include <vector>
+#include <queue>
+#include <algorithm>
+#include <map>
+using namespace std;
+
 map<vector<int>, int> toSort;
 
 // [0, 1, ... , n-1] 의 모든 순열에 대해 toSort() 를 계산해 저장한다.
@@ -40,5 +46,5 @@ int solve(const vector<int>& perm) {
         }
         fixed[i] = smaller;
     }
-    return toSort[fixed]
+    return toSort[fixed];
 }

@@ -1,3 +1,11 @@
+#include <vector>
+#include <queue>
+#include <algorithm>
+#include <map>
+#include <iostream>
+#include <string.h>
+using namespace std;
+
 void computeFailFunc(TrieNode* root) {
     queue<TrieNode*> q;
     root->fail = root;

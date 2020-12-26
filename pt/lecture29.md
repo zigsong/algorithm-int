@@ -2,7 +2,7 @@
 
 by | 상원
 
-pub date | 2020.10.31.Sat
+pub date | 2020.11.21.Sat
 
 ### 너비 우선 탐색
 
@@ -71,11 +71,15 @@ vector<int> bfs(int start) {
 1. 너비 우선 탐색 스패닝 트리 계산
 2. 최단 경로 계산 
 
-``` c++
+![image-20201121165457177](lecture29.assets/image-20201121165457177.png)
+
+
+
+```c++
 // 29.2 최단 경로를 계산하는 너비 우선 탐색
 
 // start 에서 시작해 그래프를 너비 우선 탐색하고 시작점부터 각 정점까지의
-// 최단 거리와 너비 우선 탐색 스패닝 트리를 계산하낟.
+// 최단 거리와 너비 우선 탐색 스패닝 트리를 계산한다.
 // distance[i] = start 부터 i 까지의 최단 거리
 // parent[i] = 너비 우선 탐색 스패닝 트리에서 i 의 부모의 번호. 루트인 경우 자신의 번호
 void bfs2(int start, vector<int>& distance, vector<int>& parent) {
@@ -98,7 +102,6 @@ void bfs2(int start, vector<int>& distance, vector<int>& parent) {
                 q.push(there);
                 // start 부터 층별로 1 씩 더해진다
                 distance[there] = distance[here] + 1;
-                // I'm your father
                 parent[there] = here;
             }
         }
@@ -119,6 +122,8 @@ vector<int> shortestPath(int v, const vector<int>& parent) {
     return path;
 }
 ```
+
+
 
 
 
@@ -328,7 +333,11 @@ int bfs(State start, State finish) {
 
    or 양방향 탐색으로도 찾기 힘들만큼 최단거리가 크면?
 
-2. #### **점점 깊어지는 탐색**
+
+
+점점 늘어가는 follow!
+
+1. #### **점점 깊어지는 탐색**(IDS)
 
    임의로 깊이 제한 l을 설정한다
 

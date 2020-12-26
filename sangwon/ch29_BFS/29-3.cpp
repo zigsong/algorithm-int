@@ -1,5 +1,11 @@
 // 29.3 Sorting Game 문제를 해결하는 너비 우선 탐색 알고리즘
 
+#include <vector>
+#include <queue>
+#include <algorithm>
+#include <map>
+using namespace std;
+
 // perm 을 정렬하기 위해 필요한 최소 뒤집기 연산의 수를 계산한다.
 int bfs(const vector<int>& perm) {
     int n = perm.size();

@@ -1,4 +1,11 @@
 // 30.2 우선순위 큐를 사용하지 않는 다익스트라 알고리즘의 구현
+#include <vector>
+#include <queue>
+#include <algorithm>
+#include <map>
+#include <iostream>
+#include <string.h>
+using namespace std;
 
 vector<int> dijkstra2(int src) {
     vector<int> dist(V, INF);

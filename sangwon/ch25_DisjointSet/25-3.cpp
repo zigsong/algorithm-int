@@ -1,3 +1,8 @@
+// 25.3 에디터 전쟁 문제를 해결하는 상호 배타적 집합의 구현
+
+#include <vector>
+using namespace std;
+
 struct BipartiteUnionFind {
     vector<int> parent, rank, enemy, size;
     BipartiteUnionFind(int n): parent(n), rank(n, 0), enemy(n, -1), size(n, 1) {
@@ -5,9 +10,9 @@ struct BipartiteUnionFind {
     }
     int find(int u) {
         if(parent[u] == u) return u;
-        return parent[u] = find(parent[u])
+        return parent[u] = find(parent[u]);
     }
-    inf merge(int u, int v) {
+    int merge(int u, int v) {
         if(u == -1 || v == -1) return max(u, v);
         u = find(u); v = find(v);
         if(u == v) return u;
@@ -19,4 +24,4 @@ struct BipartiteUnionFind {
     }
     bool dis(int u, int v) {}
     bool ack(int u, int v) {}
-}
+};

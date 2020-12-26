@@ -1,3 +1,11 @@
+#include <vector>
+#include <queue>
+#include <algorithm>
+#include <map>
+#include <iostream>
+#include <string.h>
+using namespace std;
+
 void computeTransition(TrieNode* here, int& nodeCounter) {
     here->no = nodeCounter++;
     for(int chr = 0; chr < ALPHABETS; ++chr) {

@@ -1,5 +1,13 @@
 // 29.10 하노이의 탑 문제를 해결하는 양방향 탐색의 구현
 
+#include <vector>
+#include <queue>
+#include <algorithm>
+#include <map>
+#include <iostream>
+#include <string.h>
+using namespace std;
+
 // x의 부호를 반환한다.
 int sgn(int x) { if(!x) return 0; return x > 0 ? 1 : -1; } 
 // x 의 절대값 1 증가
@@ -19,7 +27,7 @@ int bidir(int discs, int begin, int end) {
         int here = q.front();
         q.pop();
         int top[4] = { -1, -1, -1, -1 };
-        for(int i - discs-1; i >= 0; --i) {
+        for(int i = discs-1; i >= 0; --i) {
             top[get(here, i)] = i;
         }
         for(int i = 0; i < 4; ++i) {
