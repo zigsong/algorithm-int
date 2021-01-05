@@ -1,0 +1,8 @@
+add_executable(boj2798 boj2798.cpp)
+add_executable(boj2231 boj2231.cpp)
+add_executable(boj10872 boj10872.cpp)
+add_executable(boj10870 boj10870.cpp)
+add_executable(boj1780 boj1780.cpp)
+add_executable(boj1074 boj1074.cpp)
+add_executable(boj6549 boj6549.cpp)
+add_executable(boj12486 boj12486.cpp)
