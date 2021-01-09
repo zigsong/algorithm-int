@@ -52,11 +52,17 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/boj1010.dir/DependInfo.cmake"
+  "CMakeFiles/boj14501.dir/DependInfo.cmake"
+  "CMakeFiles/boj11053.dir/DependInfo.cmake"
+  "CMakeFiles/boj11726-2.dir/DependInfo.cmake"
+  "CMakeFiles/boj11726.dir/DependInfo.cmake"
   "CMakeFiles/boj6549.dir/DependInfo.cmake"
   "CMakeFiles/boj1074.dir/DependInfo.cmake"
   "CMakeFiles/boj10870.dir/DependInfo.cmake"
   "CMakeFiles/boj2231.dir/DependInfo.cmake"
   "CMakeFiles/boj1780.dir/DependInfo.cmake"
+  "CMakeFiles/boj1932.dir/DependInfo.cmake"
   "CMakeFiles/boj10872.dir/DependInfo.cmake"
   "CMakeFiles/boj12486.dir/DependInfo.cmake"
   "CMakeFiles/boj2798.dir/DependInfo.cmake"
