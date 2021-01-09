@@ -1,4 +1,4 @@
-# ch7(dynamic programming) - 백준 문제 풀이
+# ch8(dynamic programming) - 백준 문제 풀이
 
 by | 지은
 pub date | 2021.01.09.Sat
