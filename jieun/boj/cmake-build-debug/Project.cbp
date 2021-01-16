@@ -17,6 +17,16 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
 				<Option type="4"/>
@@ -27,11 +37,55 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
+			<Target title="boj2841">
+				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj2841" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
-				<Option type="4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/x86_64-apple-darwin19"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 boj2841"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="boj2841/fast">
+				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj2841" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/x86_64-apple-darwin19"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 boj2841/fast"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -86,6 +140,60 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 boj1010/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="boj19644">
+				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj19644" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/x86_64-apple-darwin19"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 boj19644"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="boj19644/fast">
+				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj19644" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/x86_64-apple-darwin19"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 boj19644/fast"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -415,6 +523,60 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="boj1406">
+				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj1406" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/x86_64-apple-darwin19"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 boj1406"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="boj1406/fast">
+				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj1406" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/x86_64-apple-darwin19"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 boj1406/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="boj10870">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj10870" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
@@ -739,6 +901,60 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="boj15678">
+				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj15678" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/x86_64-apple-darwin19"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 boj15678"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="boj15678/fast">
+				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj15678" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/x86_64-apple-darwin19"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 boj15678/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="boj2798">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj2798" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
@@ -818,8 +1034,14 @@
 		<Unit filename="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/boj12486.cpp">
 			<Option target="boj12486"/>
 		</Unit>
+		<Unit filename="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/boj1406.cpp">
+			<Option target="boj1406"/>
+		</Unit>
 		<Unit filename="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/boj14501.cpp">
 			<Option target="boj14501"/>
+		</Unit>
+		<Unit filename="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/boj15678.cpp">
+			<Option target="boj15678"/>
 		</Unit>
 		<Unit filename="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/boj1780.cpp">
 			<Option target="boj1780"/>
@@ -827,11 +1049,17 @@
 		<Unit filename="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/boj1932.cpp">
 			<Option target="boj1932"/>
 		</Unit>
+		<Unit filename="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/boj19644.cpp">
+			<Option target="boj19644"/>
+		</Unit>
 		<Unit filename="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/boj2231.cpp">
 			<Option target="boj2231"/>
 		</Unit>
 		<Unit filename="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/boj2798.cpp">
 			<Option target="boj2798"/>
+		</Unit>
+		<Unit filename="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/boj2841.cpp">
+			<Option target="boj2841"/>
 		</Unit>
 		<Unit filename="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/boj6549.cpp">
 			<Option target="boj6549"/>
