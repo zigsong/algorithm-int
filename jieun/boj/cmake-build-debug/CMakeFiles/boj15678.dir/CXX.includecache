@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/boj15678.cpp
+iostream
+-
+deque
+-
+cstdio
+-
+algorithm
+-
+
