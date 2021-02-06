@@ -162,7 +162,7 @@ linked.print()
 
 
 
-## 풀이 - 왜 안되지😂 -> 쓰다가 깨달음
+## 풀이 - 왜 안되지😂 -> 쓰다가 깨달음 -> 여전히 안됨
 
 ![image-20210116175137174](baekjoon1819.assets/image-20210116175137174.png)
 
@@ -170,12 +170,14 @@ linked.print()
 import sys
 
 def solve(L, Cammo):
+    temp = 0
     for i in range(L):
         hp = int(sys.stdin.readline())
-        if hp > Mk*min([Ml, L]):
+        if hp > Mk*min([Ml, L]) - temp:
             if Cammo <= 0:
                 return False
             Cammo -= 1
+            temp += Mk
     return True
 
 L = int(sys.stdin.readline())
@@ -254,7 +256,7 @@ for i in range(N):
     string, fret = map(int, sys.stdin.readline().split())
     stack = stacks[string-1]
     
-    # 스택이 비어있거나, 마지막 요소보다 크면 스택에 추가하고, count+1
+    # 스택이 비어있거나, 마지막 요소보다 fret 이 크면 스택에 추가하고, count+1
     if stack.lastnum() == None or stack.lastnum() < fret:
         count += 1
         stack.push(fret)
@@ -270,6 +272,10 @@ for i in range(N):
 
 print(count)
 ```
+
+C++ list 는 연결 리스트
+
+Python list 는 동적배열
 
 
 
