@@ -12,7 +12,7 @@
 
 using namespace std;
 
-vector<pair<int, int> > v;
+vector<pair<int, int> > v; // pair<데드라인, 컵라면>
 priority_queue<int> pq;
 int ret;
 
@@ -29,13 +29,14 @@ int main() {
     sort(v.begin(), v.end());
     int j = n-1; // 한 번씩만 체크하여 큐에 담기 위해서
 
-    for (int i=n-1; i>=0; i--) {
+    for (int i=n-1; i>=0; i--) { // 뒤에서부터(데드라인이 긴 것부터) 시작
         // 같은 데드라인의 문제들 (v[j].first == i)
+        // ** 각 문제의 데드라인은 N 이하의 자연수 (i에 해당하는 데드라인이 없으면 그냥 무시)
         for (; j>=0 && v[j].first==i; j--) {
             pq.push(v[j].second); // 라면 담기 
         }
         if (!pq.empty()) {
-            ret += pq.top();
+            ret += pq.top(); // 1초(i가 한 번 순회할 때)에 하나씩 가능한 목록 중 가장 많은 컵라면의 수를 더함
             pq.pop();
         }
     }

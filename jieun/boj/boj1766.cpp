@@ -18,7 +18,7 @@ int main() {
     for (int i=0; i<m; i++) {
         int a, b;
         cin >> a >> b;
-        inDegree[b]++;
+        inDegree[b]++; // inDegree[b] = b보다 먼저 풀어야 하는 문제의 개수
         nums[a].push_back(b);
     }
     for (int i=1; i<=n; i++) {
@@ -27,16 +27,16 @@ int main() {
         }
     }
     while (!pq.empty()) {
-        int curr = pq.top(); // 작은 수부터 출력
+        int curr = pq.top(); // 문제 번호가 작은 것(쉬운 것)부터 출력
         pq.pop();
 
         cout << curr << " ";
         for (int i=0; i<nums[curr].size(); i++) {
             int next = nums[curr][i]; // curr보다 나중에 풀어야 하는 문제
             // 출력 초과 (테케는 통과)
-//            if (inDegree[next] > 0) {
-//                pq.push(next);
-//                inDegree[next]--;
+//            if (inDegree[next] > 0) { // 먼저 풀어야 하는 문제가 있다면
+//                pq.push(next); // pq에 넣어주고
+//                inDegree[next]--; // inDegree에서는 배줌
 //            }
             if (--inDegree[next] == 0) {
                 pq.push(next);
