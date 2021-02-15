@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named boj14725
+
+# Build rule for target.
+boj14725: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boj14725
+.PHONY : boj14725
+
+# fast build rule for target.
+boj14725/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj14725.dir/build.make CMakeFiles/boj14725.dir/build
+.PHONY : boj14725/fast
+
+#=============================================================================
 # Target rules for targets named boj3653
 
 # Build rule for target.
@@ -791,6 +804,33 @@ boj14501.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj14501.dir/build.make CMakeFiles/boj14501.dir/boj14501.cpp.s
 .PHONY : boj14501.cpp.s
 
+boj14725.o: boj14725.cpp.o
+
+.PHONY : boj14725.o
+
+# target to build an object file
+boj14725.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj14725.dir/build.make CMakeFiles/boj14725.dir/boj14725.cpp.o
+.PHONY : boj14725.cpp.o
+
+boj14725.i: boj14725.cpp.i
+
+.PHONY : boj14725.i
+
+# target to preprocess a source file
+boj14725.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj14725.dir/build.make CMakeFiles/boj14725.dir/boj14725.cpp.i
+.PHONY : boj14725.cpp.i
+
+boj14725.s: boj14725.cpp.s
+
+.PHONY : boj14725.s
+
+# target to generate assembly for a file
+boj14725.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj14725.dir/build.make CMakeFiles/boj14725.dir/boj14725.cpp.s
+.PHONY : boj14725.cpp.s
+
 boj15678.o: boj15678.cpp.o
 
 .PHONY : boj15678.o
@@ -1269,6 +1309,7 @@ help:
 	@echo "... boj13016"
 	@echo "... boj1406"
 	@echo "... boj14501"
+	@echo "... boj14725"
 	@echo "... boj15678"
 	@echo "... boj1766"
 	@echo "... boj1780"
@@ -1319,6 +1360,9 @@ help:
 	@echo "... boj14501.o"
 	@echo "... boj14501.i"
 	@echo "... boj14501.s"
+	@echo "... boj14725.o"
+	@echo "... boj14725.i"
+	@echo "... boj14725.s"
 	@echo "... boj15678.o"
 	@echo "... boj15678.i"
 	@echo "... boj15678.s"
