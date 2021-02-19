@@ -77,27 +77,27 @@ include CMakeFiles/boj1781.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/boj1781.dir/flags.make
 
-CMakeFiles/boj1781.dir/boj1781.cpp.o: CMakeFiles/boj1781.dir/flags.make
-CMakeFiles/boj1781.dir/boj1781.cpp.o: ../boj1781.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/boj1781.dir/boj1781.cpp.o"
-	/usr/local/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/boj1781.dir/boj1781.cpp.o -c /Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/boj1781.cpp
+CMakeFiles/boj1781.dir/boj1781.o: CMakeFiles/boj1781.dir/flags.make
+CMakeFiles/boj1781.dir/boj1781.o: ../boj1781.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/boj1781.dir/boj1781.o"
+	/usr/local/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/boj1781.dir/boj1781.o -c /Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/boj1781.cpp
 
-CMakeFiles/boj1781.dir/boj1781.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/boj1781.dir/boj1781.cpp.i"
-	/usr/local/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/boj1781.cpp > CMakeFiles/boj1781.dir/boj1781.cpp.i
+CMakeFiles/boj1781.dir/boj1781.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/boj1781.dir/boj1781.i"
+	/usr/local/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/boj1781.cpp > CMakeFiles/boj1781.dir/boj1781.i
 
-CMakeFiles/boj1781.dir/boj1781.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/boj1781.dir/boj1781.cpp.s"
-	/usr/local/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/boj1781.cpp -o CMakeFiles/boj1781.dir/boj1781.cpp.s
+CMakeFiles/boj1781.dir/boj1781.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/boj1781.dir/boj1781.s"
+	/usr/local/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/boj1781.cpp -o CMakeFiles/boj1781.dir/boj1781.s
 
 # Object files for target boj1781
 boj1781_OBJECTS = \
-"CMakeFiles/boj1781.dir/boj1781.cpp.o"
+"CMakeFiles/boj1781.dir/boj1781.o"
 
 # External object files for target boj1781
 boj1781_EXTERNAL_OBJECTS =
 
-boj1781: CMakeFiles/boj1781.dir/boj1781.cpp.o
+boj1781: CMakeFiles/boj1781.dir/boj1781.o
 boj1781: CMakeFiles/boj1781.dir/build.make
 boj1781: CMakeFiles/boj1781.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable boj1781"

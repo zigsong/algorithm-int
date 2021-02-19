@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/boj6549.cpp" "/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/CMakeFiles/boj6549.dir/boj6549.cpp.o"
+  "/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/boj6549.cpp" "/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/CMakeFiles/boj6549.dir/boj6549.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

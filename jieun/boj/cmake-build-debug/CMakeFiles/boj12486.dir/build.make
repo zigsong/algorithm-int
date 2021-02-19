@@ -77,27 +77,27 @@ include CMakeFiles/boj12486.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/boj12486.dir/flags.make
 
-CMakeFiles/boj12486.dir/boj12486.cpp.o: CMakeFiles/boj12486.dir/flags.make
-CMakeFiles/boj12486.dir/boj12486.cpp.o: ../boj12486.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/boj12486.dir/boj12486.cpp.o"
-	/usr/local/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/boj12486.dir/boj12486.cpp.o -c /Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/boj12486.cpp
+CMakeFiles/boj12486.dir/boj12486.o: CMakeFiles/boj12486.dir/flags.make
+CMakeFiles/boj12486.dir/boj12486.o: ../boj12486.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/boj12486.dir/boj12486.o"
+	/usr/local/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/boj12486.dir/boj12486.o -c /Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/boj12486.cpp
 
-CMakeFiles/boj12486.dir/boj12486.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/boj12486.dir/boj12486.cpp.i"
-	/usr/local/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/boj12486.cpp > CMakeFiles/boj12486.dir/boj12486.cpp.i
+CMakeFiles/boj12486.dir/boj12486.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/boj12486.dir/boj12486.i"
+	/usr/local/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/boj12486.cpp > CMakeFiles/boj12486.dir/boj12486.i
 
-CMakeFiles/boj12486.dir/boj12486.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/boj12486.dir/boj12486.cpp.s"
-	/usr/local/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/boj12486.cpp -o CMakeFiles/boj12486.dir/boj12486.cpp.s
+CMakeFiles/boj12486.dir/boj12486.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/boj12486.dir/boj12486.s"
+	/usr/local/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/boj12486.cpp -o CMakeFiles/boj12486.dir/boj12486.s
 
 # Object files for target boj12486
 boj12486_OBJECTS = \
-"CMakeFiles/boj12486.dir/boj12486.cpp.o"
+"CMakeFiles/boj12486.dir/boj12486.o"
 
 # External object files for target boj12486
 boj12486_EXTERNAL_OBJECTS =
 
-boj12486: CMakeFiles/boj12486.dir/boj12486.cpp.o
+boj12486: CMakeFiles/boj12486.dir/boj12486.o
 boj12486: CMakeFiles/boj12486.dir/build.make
 boj12486: CMakeFiles/boj12486.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable boj12486"

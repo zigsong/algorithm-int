@@ -1,1 +1,1 @@
-/usr/local/bin/g++-9  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/boj2517.dir/boj2517.cpp.o  -o boj2517 
+/usr/local/bin/g++-9  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/boj2517.dir/boj2517.o  -o boj2517 

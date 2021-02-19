@@ -27,9 +27,63 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="boj1976">
+				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj1976" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/x86_64-apple-darwin19"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 boj1976"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="boj1976/fast">
+				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj1976" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/x86_64-apple-darwin19"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 boj1976/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="boj14725">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj14725" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -56,7 +110,7 @@
 			</Target>
 			<Target title="boj14725/fast">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj14725" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -83,7 +137,7 @@
 			</Target>
 			<Target title="boj3653">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj3653" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -110,7 +164,7 @@
 			</Target>
 			<Target title="boj3653/fast">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj3653" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -137,7 +191,7 @@
 			</Target>
 			<Target title="boj1781">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj1781" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -164,7 +218,7 @@
 			</Target>
 			<Target title="boj1781/fast">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj1781" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -191,7 +245,7 @@
 			</Target>
 			<Target title="boj1766">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj1766" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -218,7 +272,7 @@
 			</Target>
 			<Target title="boj1766/fast">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj1766" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -255,7 +309,7 @@
 			</Target>
 			<Target title="boj2231">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj2231" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -282,7 +336,7 @@
 			</Target>
 			<Target title="boj2231/fast">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj2231" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -309,7 +363,7 @@
 			</Target>
 			<Target title="boj2533">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj2533" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -336,7 +390,7 @@
 			</Target>
 			<Target title="boj2533/fast">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj2533" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -363,7 +417,7 @@
 			</Target>
 			<Target title="boj10870">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj10870" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -390,7 +444,7 @@
 			</Target>
 			<Target title="boj10870/fast">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj10870" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -417,7 +471,7 @@
 			</Target>
 			<Target title="boj2841">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj2841" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -444,7 +498,7 @@
 			</Target>
 			<Target title="boj2841/fast">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj2841" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -471,7 +525,7 @@
 			</Target>
 			<Target title="boj11726">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj11726" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -498,7 +552,7 @@
 			</Target>
 			<Target title="boj11726/fast">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj11726" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -525,7 +579,7 @@
 			</Target>
 			<Target title="boj1010">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj1010" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -552,7 +606,7 @@
 			</Target>
 			<Target title="boj1010/fast">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj1010" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -579,7 +633,7 @@
 			</Target>
 			<Target title="boj19644">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj19644" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -606,7 +660,7 @@
 			</Target>
 			<Target title="boj19644/fast">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj19644" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -633,7 +687,7 @@
 			</Target>
 			<Target title="boj14501">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj14501" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -660,7 +714,7 @@
 			</Target>
 			<Target title="boj14501/fast">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj14501" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -687,7 +741,7 @@
 			</Target>
 			<Target title="boj2250">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj2250" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -714,7 +768,7 @@
 			</Target>
 			<Target title="boj2250/fast">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj2250" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -741,7 +795,7 @@
 			</Target>
 			<Target title="boj11053">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj11053" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -768,7 +822,7 @@
 			</Target>
 			<Target title="boj11053/fast">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj11053" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -795,7 +849,7 @@
 			</Target>
 			<Target title="boj11726-2">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj11726-2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -822,7 +876,7 @@
 			</Target>
 			<Target title="boj11726-2/fast">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj11726-2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -849,7 +903,7 @@
 			</Target>
 			<Target title="boj13016">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj13016" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -876,7 +930,7 @@
 			</Target>
 			<Target title="boj13016/fast">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj13016" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -903,7 +957,7 @@
 			</Target>
 			<Target title="boj6549">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj6549" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -930,7 +984,7 @@
 			</Target>
 			<Target title="boj6549/fast">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj6549" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -957,7 +1011,7 @@
 			</Target>
 			<Target title="boj1074">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj1074" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -984,7 +1038,7 @@
 			</Target>
 			<Target title="boj1074/fast">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj1074" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1011,7 +1065,7 @@
 			</Target>
 			<Target title="boj2533-2">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj2533-2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1038,7 +1092,7 @@
 			</Target>
 			<Target title="boj2533-2/fast">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj2533-2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1063,9 +1117,63 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="boj1717">
+				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj1717" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/x86_64-apple-darwin19"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 boj1717"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="boj1717/fast">
+				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj1717" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/x86_64-apple-darwin19"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 boj1717/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="boj1406">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj1406" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1092,7 +1200,7 @@
 			</Target>
 			<Target title="boj1406/fast">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj1406" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1119,7 +1227,7 @@
 			</Target>
 			<Target title="boj2798">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj2798" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1146,7 +1254,7 @@
 			</Target>
 			<Target title="boj2798/fast">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj2798" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1173,7 +1281,7 @@
 			</Target>
 			<Target title="boj2263">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj2263" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1200,7 +1308,7 @@
 			</Target>
 			<Target title="boj2263/fast">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj2263" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1227,7 +1335,7 @@
 			</Target>
 			<Target title="boj2517">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj2517" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1254,7 +1362,7 @@
 			</Target>
 			<Target title="boj2517/fast">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj2517" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1281,7 +1389,7 @@
 			</Target>
 			<Target title="boj1780">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj1780" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1308,7 +1416,7 @@
 			</Target>
 			<Target title="boj1780/fast">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj1780" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1333,9 +1441,63 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="boj5052">
+				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj5052" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/x86_64-apple-darwin19"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 boj5052"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="boj5052/fast">
+				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj5052" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/x86_64-apple-darwin19"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc@9/9.3.0/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 boj5052/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="boj1932">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj1932" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1362,7 +1524,7 @@
 			</Target>
 			<Target title="boj1932/fast">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj1932" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1389,7 +1551,7 @@
 			</Target>
 			<Target title="boj10872">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj10872" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1416,7 +1578,7 @@
 			</Target>
 			<Target title="boj10872/fast">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj10872" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1443,7 +1605,7 @@
 			</Target>
 			<Target title="boj3653-2">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj3653-2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1470,7 +1632,7 @@
 			</Target>
 			<Target title="boj3653-2/fast">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj3653-2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1497,7 +1659,7 @@
 			</Target>
 			<Target title="boj12486">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj12486" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1524,7 +1686,7 @@
 			</Target>
 			<Target title="boj12486/fast">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj12486" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1551,7 +1713,7 @@
 			</Target>
 			<Target title="boj15678">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj15678" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1578,7 +1740,7 @@
 			</Target>
 			<Target title="boj15678/fast">
 				<Option output="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug/boj15678" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1643,6 +1805,9 @@
 		<Unit filename="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/boj15678.cpp">
 			<Option target="boj15678"/>
 		</Unit>
+		<Unit filename="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/boj1717.cpp">
+			<Option target="boj1717"/>
+		</Unit>
 		<Unit filename="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/boj1766.cpp">
 			<Option target="boj1766"/>
 		</Unit>
@@ -1657,6 +1822,9 @@
 		</Unit>
 		<Unit filename="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/boj19644.cpp">
 			<Option target="boj19644"/>
+		</Unit>
+		<Unit filename="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/boj1976.cpp">
+			<Option target="boj1976"/>
 		</Unit>
 		<Unit filename="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/boj2231.cpp">
 			<Option target="boj2231"/>
@@ -1687,6 +1855,9 @@
 		</Unit>
 		<Unit filename="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/boj3653.cpp">
 			<Option target="boj3653"/>
+		</Unit>
+		<Unit filename="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/boj5052.cpp">
+			<Option target="boj5052"/>
 		</Unit>
 		<Unit filename="/Users/songji/Desktop/algorithm-study/algorithm-int/jieun/boj/boj6549.cpp">
 			<Option target="boj6549"/>

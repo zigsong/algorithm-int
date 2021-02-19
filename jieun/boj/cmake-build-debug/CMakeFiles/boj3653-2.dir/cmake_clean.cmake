@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/boj3653-2.dir/boj3653-2.cpp.o"
+  "CMakeFiles/boj3653-2.dir/boj3653-2.o"
   "boj3653-2"
   "boj3653-2.pdb"
 )

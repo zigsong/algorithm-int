@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named boj1976
+
+# Build rule for target.
+boj1976: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boj1976
+.PHONY : boj1976
+
+# fast build rule for target.
+boj1976/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1976.dir/build.make CMakeFiles/boj1976.dir/build
+.PHONY : boj1976/fast
+
+#=============================================================================
 # Target rules for targets named boj14725
 
 # Build rule for target.
@@ -378,6 +391,19 @@ boj2533-2/fast:
 .PHONY : boj2533-2/fast
 
 #=============================================================================
+# Target rules for targets named boj1717
+
+# Build rule for target.
+boj1717: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boj1717
+.PHONY : boj1717
+
+# fast build rule for target.
+boj1717/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1717.dir/build.make CMakeFiles/boj1717.dir/build
+.PHONY : boj1717/fast
+
+#=============================================================================
 # Target rules for targets named boj1406
 
 # Build rule for target.
@@ -441,6 +467,19 @@ boj1780: cmake_check_build_system
 boj1780/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1780.dir/build.make CMakeFiles/boj1780.dir/build
 .PHONY : boj1780/fast
+
+#=============================================================================
+# Target rules for targets named boj5052
+
+# Build rule for target.
+boj5052: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boj5052
+.PHONY : boj5052
+
+# fast build rule for target.
+boj5052/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj5052.dir/build.make CMakeFiles/boj5052.dir/build
+.PHONY : boj5052/fast
 
 #=============================================================================
 # Target rules for targets named boj1932
@@ -507,788 +546,485 @@ boj15678/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj15678.dir/build.make CMakeFiles/boj15678.dir/build
 .PHONY : boj15678/fast
 
-boj1010.o: boj1010.cpp.o
-
+# target to build an object file
+boj1010.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1010.dir/build.make CMakeFiles/boj1010.dir/boj1010.o
 .PHONY : boj1010.o
 
-# target to build an object file
-boj1010.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1010.dir/build.make CMakeFiles/boj1010.dir/boj1010.cpp.o
-.PHONY : boj1010.cpp.o
-
-boj1010.i: boj1010.cpp.i
-
+# target to preprocess a source file
+boj1010.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1010.dir/build.make CMakeFiles/boj1010.dir/boj1010.i
 .PHONY : boj1010.i
 
-# target to preprocess a source file
-boj1010.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1010.dir/build.make CMakeFiles/boj1010.dir/boj1010.cpp.i
-.PHONY : boj1010.cpp.i
-
-boj1010.s: boj1010.cpp.s
-
+# target to generate assembly for a file
+boj1010.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1010.dir/build.make CMakeFiles/boj1010.dir/boj1010.s
 .PHONY : boj1010.s
 
-# target to generate assembly for a file
-boj1010.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1010.dir/build.make CMakeFiles/boj1010.dir/boj1010.cpp.s
-.PHONY : boj1010.cpp.s
-
-boj1074.o: boj1074.cpp.o
-
+# target to build an object file
+boj1074.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1074.dir/build.make CMakeFiles/boj1074.dir/boj1074.o
 .PHONY : boj1074.o
 
-# target to build an object file
-boj1074.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1074.dir/build.make CMakeFiles/boj1074.dir/boj1074.cpp.o
-.PHONY : boj1074.cpp.o
-
-boj1074.i: boj1074.cpp.i
-
+# target to preprocess a source file
+boj1074.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1074.dir/build.make CMakeFiles/boj1074.dir/boj1074.i
 .PHONY : boj1074.i
 
-# target to preprocess a source file
-boj1074.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1074.dir/build.make CMakeFiles/boj1074.dir/boj1074.cpp.i
-.PHONY : boj1074.cpp.i
-
-boj1074.s: boj1074.cpp.s
-
+# target to generate assembly for a file
+boj1074.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1074.dir/build.make CMakeFiles/boj1074.dir/boj1074.s
 .PHONY : boj1074.s
 
-# target to generate assembly for a file
-boj1074.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1074.dir/build.make CMakeFiles/boj1074.dir/boj1074.cpp.s
-.PHONY : boj1074.cpp.s
-
-boj10870.o: boj10870.cpp.o
-
+# target to build an object file
+boj10870.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj10870.dir/build.make CMakeFiles/boj10870.dir/boj10870.o
 .PHONY : boj10870.o
 
-# target to build an object file
-boj10870.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj10870.dir/build.make CMakeFiles/boj10870.dir/boj10870.cpp.o
-.PHONY : boj10870.cpp.o
-
-boj10870.i: boj10870.cpp.i
-
+# target to preprocess a source file
+boj10870.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj10870.dir/build.make CMakeFiles/boj10870.dir/boj10870.i
 .PHONY : boj10870.i
 
-# target to preprocess a source file
-boj10870.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj10870.dir/build.make CMakeFiles/boj10870.dir/boj10870.cpp.i
-.PHONY : boj10870.cpp.i
-
-boj10870.s: boj10870.cpp.s
-
+# target to generate assembly for a file
+boj10870.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj10870.dir/build.make CMakeFiles/boj10870.dir/boj10870.s
 .PHONY : boj10870.s
 
-# target to generate assembly for a file
-boj10870.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj10870.dir/build.make CMakeFiles/boj10870.dir/boj10870.cpp.s
-.PHONY : boj10870.cpp.s
-
-boj10872.o: boj10872.cpp.o
-
+# target to build an object file
+boj10872.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj10872.dir/build.make CMakeFiles/boj10872.dir/boj10872.o
 .PHONY : boj10872.o
 
-# target to build an object file
-boj10872.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj10872.dir/build.make CMakeFiles/boj10872.dir/boj10872.cpp.o
-.PHONY : boj10872.cpp.o
-
-boj10872.i: boj10872.cpp.i
-
+# target to preprocess a source file
+boj10872.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj10872.dir/build.make CMakeFiles/boj10872.dir/boj10872.i
 .PHONY : boj10872.i
 
-# target to preprocess a source file
-boj10872.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj10872.dir/build.make CMakeFiles/boj10872.dir/boj10872.cpp.i
-.PHONY : boj10872.cpp.i
-
-boj10872.s: boj10872.cpp.s
-
+# target to generate assembly for a file
+boj10872.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj10872.dir/build.make CMakeFiles/boj10872.dir/boj10872.s
 .PHONY : boj10872.s
 
-# target to generate assembly for a file
-boj10872.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj10872.dir/build.make CMakeFiles/boj10872.dir/boj10872.cpp.s
-.PHONY : boj10872.cpp.s
-
-boj11053.o: boj11053.cpp.o
-
+# target to build an object file
+boj11053.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj11053.dir/build.make CMakeFiles/boj11053.dir/boj11053.o
 .PHONY : boj11053.o
 
-# target to build an object file
-boj11053.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj11053.dir/build.make CMakeFiles/boj11053.dir/boj11053.cpp.o
-.PHONY : boj11053.cpp.o
-
-boj11053.i: boj11053.cpp.i
-
+# target to preprocess a source file
+boj11053.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj11053.dir/build.make CMakeFiles/boj11053.dir/boj11053.i
 .PHONY : boj11053.i
 
-# target to preprocess a source file
-boj11053.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj11053.dir/build.make CMakeFiles/boj11053.dir/boj11053.cpp.i
-.PHONY : boj11053.cpp.i
-
-boj11053.s: boj11053.cpp.s
-
+# target to generate assembly for a file
+boj11053.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj11053.dir/build.make CMakeFiles/boj11053.dir/boj11053.s
 .PHONY : boj11053.s
 
-# target to generate assembly for a file
-boj11053.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj11053.dir/build.make CMakeFiles/boj11053.dir/boj11053.cpp.s
-.PHONY : boj11053.cpp.s
-
-boj11726-2.o: boj11726-2.cpp.o
-
+# target to build an object file
+boj11726-2.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj11726-2.dir/build.make CMakeFiles/boj11726-2.dir/boj11726-2.o
 .PHONY : boj11726-2.o
 
-# target to build an object file
-boj11726-2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj11726-2.dir/build.make CMakeFiles/boj11726-2.dir/boj11726-2.cpp.o
-.PHONY : boj11726-2.cpp.o
-
-boj11726-2.i: boj11726-2.cpp.i
-
+# target to preprocess a source file
+boj11726-2.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj11726-2.dir/build.make CMakeFiles/boj11726-2.dir/boj11726-2.i
 .PHONY : boj11726-2.i
 
-# target to preprocess a source file
-boj11726-2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj11726-2.dir/build.make CMakeFiles/boj11726-2.dir/boj11726-2.cpp.i
-.PHONY : boj11726-2.cpp.i
-
-boj11726-2.s: boj11726-2.cpp.s
-
+# target to generate assembly for a file
+boj11726-2.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj11726-2.dir/build.make CMakeFiles/boj11726-2.dir/boj11726-2.s
 .PHONY : boj11726-2.s
 
-# target to generate assembly for a file
-boj11726-2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj11726-2.dir/build.make CMakeFiles/boj11726-2.dir/boj11726-2.cpp.s
-.PHONY : boj11726-2.cpp.s
-
-boj11726.o: boj11726.cpp.o
-
+# target to build an object file
+boj11726.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj11726.dir/build.make CMakeFiles/boj11726.dir/boj11726.o
 .PHONY : boj11726.o
 
-# target to build an object file
-boj11726.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj11726.dir/build.make CMakeFiles/boj11726.dir/boj11726.cpp.o
-.PHONY : boj11726.cpp.o
-
-boj11726.i: boj11726.cpp.i
-
+# target to preprocess a source file
+boj11726.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj11726.dir/build.make CMakeFiles/boj11726.dir/boj11726.i
 .PHONY : boj11726.i
 
-# target to preprocess a source file
-boj11726.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj11726.dir/build.make CMakeFiles/boj11726.dir/boj11726.cpp.i
-.PHONY : boj11726.cpp.i
-
-boj11726.s: boj11726.cpp.s
-
+# target to generate assembly for a file
+boj11726.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj11726.dir/build.make CMakeFiles/boj11726.dir/boj11726.s
 .PHONY : boj11726.s
 
-# target to generate assembly for a file
-boj11726.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj11726.dir/build.make CMakeFiles/boj11726.dir/boj11726.cpp.s
-.PHONY : boj11726.cpp.s
-
-boj12486.o: boj12486.cpp.o
-
+# target to build an object file
+boj12486.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj12486.dir/build.make CMakeFiles/boj12486.dir/boj12486.o
 .PHONY : boj12486.o
 
-# target to build an object file
-boj12486.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj12486.dir/build.make CMakeFiles/boj12486.dir/boj12486.cpp.o
-.PHONY : boj12486.cpp.o
-
-boj12486.i: boj12486.cpp.i
-
+# target to preprocess a source file
+boj12486.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj12486.dir/build.make CMakeFiles/boj12486.dir/boj12486.i
 .PHONY : boj12486.i
 
-# target to preprocess a source file
-boj12486.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj12486.dir/build.make CMakeFiles/boj12486.dir/boj12486.cpp.i
-.PHONY : boj12486.cpp.i
-
-boj12486.s: boj12486.cpp.s
-
+# target to generate assembly for a file
+boj12486.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj12486.dir/build.make CMakeFiles/boj12486.dir/boj12486.s
 .PHONY : boj12486.s
 
-# target to generate assembly for a file
-boj12486.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj12486.dir/build.make CMakeFiles/boj12486.dir/boj12486.cpp.s
-.PHONY : boj12486.cpp.s
-
-boj13016.o: boj13016.cpp.o
-
+# target to build an object file
+boj13016.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj13016.dir/build.make CMakeFiles/boj13016.dir/boj13016.o
 .PHONY : boj13016.o
 
-# target to build an object file
-boj13016.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj13016.dir/build.make CMakeFiles/boj13016.dir/boj13016.cpp.o
-.PHONY : boj13016.cpp.o
-
-boj13016.i: boj13016.cpp.i
-
+# target to preprocess a source file
+boj13016.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj13016.dir/build.make CMakeFiles/boj13016.dir/boj13016.i
 .PHONY : boj13016.i
 
-# target to preprocess a source file
-boj13016.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj13016.dir/build.make CMakeFiles/boj13016.dir/boj13016.cpp.i
-.PHONY : boj13016.cpp.i
-
-boj13016.s: boj13016.cpp.s
-
+# target to generate assembly for a file
+boj13016.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj13016.dir/build.make CMakeFiles/boj13016.dir/boj13016.s
 .PHONY : boj13016.s
 
-# target to generate assembly for a file
-boj13016.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj13016.dir/build.make CMakeFiles/boj13016.dir/boj13016.cpp.s
-.PHONY : boj13016.cpp.s
-
-boj1406.o: boj1406.cpp.o
-
+# target to build an object file
+boj1406.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1406.dir/build.make CMakeFiles/boj1406.dir/boj1406.o
 .PHONY : boj1406.o
 
-# target to build an object file
-boj1406.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1406.dir/build.make CMakeFiles/boj1406.dir/boj1406.cpp.o
-.PHONY : boj1406.cpp.o
-
-boj1406.i: boj1406.cpp.i
-
+# target to preprocess a source file
+boj1406.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1406.dir/build.make CMakeFiles/boj1406.dir/boj1406.i
 .PHONY : boj1406.i
 
-# target to preprocess a source file
-boj1406.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1406.dir/build.make CMakeFiles/boj1406.dir/boj1406.cpp.i
-.PHONY : boj1406.cpp.i
-
-boj1406.s: boj1406.cpp.s
-
+# target to generate assembly for a file
+boj1406.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1406.dir/build.make CMakeFiles/boj1406.dir/boj1406.s
 .PHONY : boj1406.s
 
-# target to generate assembly for a file
-boj1406.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1406.dir/build.make CMakeFiles/boj1406.dir/boj1406.cpp.s
-.PHONY : boj1406.cpp.s
-
-boj14501.o: boj14501.cpp.o
-
+# target to build an object file
+boj14501.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj14501.dir/build.make CMakeFiles/boj14501.dir/boj14501.o
 .PHONY : boj14501.o
 
-# target to build an object file
-boj14501.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj14501.dir/build.make CMakeFiles/boj14501.dir/boj14501.cpp.o
-.PHONY : boj14501.cpp.o
-
-boj14501.i: boj14501.cpp.i
-
+# target to preprocess a source file
+boj14501.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj14501.dir/build.make CMakeFiles/boj14501.dir/boj14501.i
 .PHONY : boj14501.i
 
-# target to preprocess a source file
-boj14501.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj14501.dir/build.make CMakeFiles/boj14501.dir/boj14501.cpp.i
-.PHONY : boj14501.cpp.i
-
-boj14501.s: boj14501.cpp.s
-
+# target to generate assembly for a file
+boj14501.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj14501.dir/build.make CMakeFiles/boj14501.dir/boj14501.s
 .PHONY : boj14501.s
 
-# target to generate assembly for a file
-boj14501.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj14501.dir/build.make CMakeFiles/boj14501.dir/boj14501.cpp.s
-.PHONY : boj14501.cpp.s
-
-boj14725.o: boj14725.cpp.o
-
+# target to build an object file
+boj14725.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj14725.dir/build.make CMakeFiles/boj14725.dir/boj14725.o
 .PHONY : boj14725.o
 
-# target to build an object file
-boj14725.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj14725.dir/build.make CMakeFiles/boj14725.dir/boj14725.cpp.o
-.PHONY : boj14725.cpp.o
-
-boj14725.i: boj14725.cpp.i
-
+# target to preprocess a source file
+boj14725.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj14725.dir/build.make CMakeFiles/boj14725.dir/boj14725.i
 .PHONY : boj14725.i
 
-# target to preprocess a source file
-boj14725.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj14725.dir/build.make CMakeFiles/boj14725.dir/boj14725.cpp.i
-.PHONY : boj14725.cpp.i
-
-boj14725.s: boj14725.cpp.s
-
+# target to generate assembly for a file
+boj14725.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj14725.dir/build.make CMakeFiles/boj14725.dir/boj14725.s
 .PHONY : boj14725.s
 
-# target to generate assembly for a file
-boj14725.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj14725.dir/build.make CMakeFiles/boj14725.dir/boj14725.cpp.s
-.PHONY : boj14725.cpp.s
-
-boj15678.o: boj15678.cpp.o
-
+# target to build an object file
+boj15678.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj15678.dir/build.make CMakeFiles/boj15678.dir/boj15678.o
 .PHONY : boj15678.o
 
-# target to build an object file
-boj15678.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj15678.dir/build.make CMakeFiles/boj15678.dir/boj15678.cpp.o
-.PHONY : boj15678.cpp.o
-
-boj15678.i: boj15678.cpp.i
-
+# target to preprocess a source file
+boj15678.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj15678.dir/build.make CMakeFiles/boj15678.dir/boj15678.i
 .PHONY : boj15678.i
 
-# target to preprocess a source file
-boj15678.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj15678.dir/build.make CMakeFiles/boj15678.dir/boj15678.cpp.i
-.PHONY : boj15678.cpp.i
-
-boj15678.s: boj15678.cpp.s
-
+# target to generate assembly for a file
+boj15678.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj15678.dir/build.make CMakeFiles/boj15678.dir/boj15678.s
 .PHONY : boj15678.s
 
+# target to build an object file
+boj1717.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1717.dir/build.make CMakeFiles/boj1717.dir/boj1717.o
+.PHONY : boj1717.o
+
+# target to preprocess a source file
+boj1717.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1717.dir/build.make CMakeFiles/boj1717.dir/boj1717.i
+.PHONY : boj1717.i
+
 # target to generate assembly for a file
-boj15678.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj15678.dir/build.make CMakeFiles/boj15678.dir/boj15678.cpp.s
-.PHONY : boj15678.cpp.s
+boj1717.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1717.dir/build.make CMakeFiles/boj1717.dir/boj1717.s
+.PHONY : boj1717.s
 
-boj1766.o: boj1766.cpp.o
-
+# target to build an object file
+boj1766.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1766.dir/build.make CMakeFiles/boj1766.dir/boj1766.o
 .PHONY : boj1766.o
 
-# target to build an object file
-boj1766.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1766.dir/build.make CMakeFiles/boj1766.dir/boj1766.cpp.o
-.PHONY : boj1766.cpp.o
-
-boj1766.i: boj1766.cpp.i
-
+# target to preprocess a source file
+boj1766.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1766.dir/build.make CMakeFiles/boj1766.dir/boj1766.i
 .PHONY : boj1766.i
 
-# target to preprocess a source file
-boj1766.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1766.dir/build.make CMakeFiles/boj1766.dir/boj1766.cpp.i
-.PHONY : boj1766.cpp.i
-
-boj1766.s: boj1766.cpp.s
-
+# target to generate assembly for a file
+boj1766.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1766.dir/build.make CMakeFiles/boj1766.dir/boj1766.s
 .PHONY : boj1766.s
 
-# target to generate assembly for a file
-boj1766.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1766.dir/build.make CMakeFiles/boj1766.dir/boj1766.cpp.s
-.PHONY : boj1766.cpp.s
-
-boj1780.o: boj1780.cpp.o
-
+# target to build an object file
+boj1780.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1780.dir/build.make CMakeFiles/boj1780.dir/boj1780.o
 .PHONY : boj1780.o
 
-# target to build an object file
-boj1780.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1780.dir/build.make CMakeFiles/boj1780.dir/boj1780.cpp.o
-.PHONY : boj1780.cpp.o
-
-boj1780.i: boj1780.cpp.i
-
+# target to preprocess a source file
+boj1780.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1780.dir/build.make CMakeFiles/boj1780.dir/boj1780.i
 .PHONY : boj1780.i
 
-# target to preprocess a source file
-boj1780.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1780.dir/build.make CMakeFiles/boj1780.dir/boj1780.cpp.i
-.PHONY : boj1780.cpp.i
-
-boj1780.s: boj1780.cpp.s
-
+# target to generate assembly for a file
+boj1780.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1780.dir/build.make CMakeFiles/boj1780.dir/boj1780.s
 .PHONY : boj1780.s
 
-# target to generate assembly for a file
-boj1780.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1780.dir/build.make CMakeFiles/boj1780.dir/boj1780.cpp.s
-.PHONY : boj1780.cpp.s
-
-boj1781.o: boj1781.cpp.o
-
+# target to build an object file
+boj1781.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1781.dir/build.make CMakeFiles/boj1781.dir/boj1781.o
 .PHONY : boj1781.o
 
-# target to build an object file
-boj1781.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1781.dir/build.make CMakeFiles/boj1781.dir/boj1781.cpp.o
-.PHONY : boj1781.cpp.o
-
-boj1781.i: boj1781.cpp.i
-
+# target to preprocess a source file
+boj1781.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1781.dir/build.make CMakeFiles/boj1781.dir/boj1781.i
 .PHONY : boj1781.i
 
-# target to preprocess a source file
-boj1781.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1781.dir/build.make CMakeFiles/boj1781.dir/boj1781.cpp.i
-.PHONY : boj1781.cpp.i
-
-boj1781.s: boj1781.cpp.s
-
+# target to generate assembly for a file
+boj1781.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1781.dir/build.make CMakeFiles/boj1781.dir/boj1781.s
 .PHONY : boj1781.s
 
-# target to generate assembly for a file
-boj1781.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1781.dir/build.make CMakeFiles/boj1781.dir/boj1781.cpp.s
-.PHONY : boj1781.cpp.s
-
-boj1932.o: boj1932.cpp.o
-
+# target to build an object file
+boj1932.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1932.dir/build.make CMakeFiles/boj1932.dir/boj1932.o
 .PHONY : boj1932.o
 
-# target to build an object file
-boj1932.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1932.dir/build.make CMakeFiles/boj1932.dir/boj1932.cpp.o
-.PHONY : boj1932.cpp.o
-
-boj1932.i: boj1932.cpp.i
-
+# target to preprocess a source file
+boj1932.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1932.dir/build.make CMakeFiles/boj1932.dir/boj1932.i
 .PHONY : boj1932.i
 
-# target to preprocess a source file
-boj1932.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1932.dir/build.make CMakeFiles/boj1932.dir/boj1932.cpp.i
-.PHONY : boj1932.cpp.i
-
-boj1932.s: boj1932.cpp.s
-
+# target to generate assembly for a file
+boj1932.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1932.dir/build.make CMakeFiles/boj1932.dir/boj1932.s
 .PHONY : boj1932.s
 
-# target to generate assembly for a file
-boj1932.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1932.dir/build.make CMakeFiles/boj1932.dir/boj1932.cpp.s
-.PHONY : boj1932.cpp.s
-
-boj19644.o: boj19644.cpp.o
-
+# target to build an object file
+boj19644.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj19644.dir/build.make CMakeFiles/boj19644.dir/boj19644.o
 .PHONY : boj19644.o
 
-# target to build an object file
-boj19644.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj19644.dir/build.make CMakeFiles/boj19644.dir/boj19644.cpp.o
-.PHONY : boj19644.cpp.o
-
-boj19644.i: boj19644.cpp.i
-
+# target to preprocess a source file
+boj19644.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj19644.dir/build.make CMakeFiles/boj19644.dir/boj19644.i
 .PHONY : boj19644.i
 
-# target to preprocess a source file
-boj19644.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj19644.dir/build.make CMakeFiles/boj19644.dir/boj19644.cpp.i
-.PHONY : boj19644.cpp.i
-
-boj19644.s: boj19644.cpp.s
-
+# target to generate assembly for a file
+boj19644.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj19644.dir/build.make CMakeFiles/boj19644.dir/boj19644.s
 .PHONY : boj19644.s
 
+# target to build an object file
+boj1976.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1976.dir/build.make CMakeFiles/boj1976.dir/boj1976.o
+.PHONY : boj1976.o
+
+# target to preprocess a source file
+boj1976.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1976.dir/build.make CMakeFiles/boj1976.dir/boj1976.i
+.PHONY : boj1976.i
+
 # target to generate assembly for a file
-boj19644.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj19644.dir/build.make CMakeFiles/boj19644.dir/boj19644.cpp.s
-.PHONY : boj19644.cpp.s
+boj1976.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1976.dir/build.make CMakeFiles/boj1976.dir/boj1976.s
+.PHONY : boj1976.s
 
-boj2231.o: boj2231.cpp.o
-
+# target to build an object file
+boj2231.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2231.dir/build.make CMakeFiles/boj2231.dir/boj2231.o
 .PHONY : boj2231.o
 
-# target to build an object file
-boj2231.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2231.dir/build.make CMakeFiles/boj2231.dir/boj2231.cpp.o
-.PHONY : boj2231.cpp.o
-
-boj2231.i: boj2231.cpp.i
-
+# target to preprocess a source file
+boj2231.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2231.dir/build.make CMakeFiles/boj2231.dir/boj2231.i
 .PHONY : boj2231.i
 
-# target to preprocess a source file
-boj2231.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2231.dir/build.make CMakeFiles/boj2231.dir/boj2231.cpp.i
-.PHONY : boj2231.cpp.i
-
-boj2231.s: boj2231.cpp.s
-
+# target to generate assembly for a file
+boj2231.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2231.dir/build.make CMakeFiles/boj2231.dir/boj2231.s
 .PHONY : boj2231.s
 
-# target to generate assembly for a file
-boj2231.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2231.dir/build.make CMakeFiles/boj2231.dir/boj2231.cpp.s
-.PHONY : boj2231.cpp.s
-
-boj2250.o: boj2250.cpp.o
-
+# target to build an object file
+boj2250.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2250.dir/build.make CMakeFiles/boj2250.dir/boj2250.o
 .PHONY : boj2250.o
 
-# target to build an object file
-boj2250.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2250.dir/build.make CMakeFiles/boj2250.dir/boj2250.cpp.o
-.PHONY : boj2250.cpp.o
-
-boj2250.i: boj2250.cpp.i
-
+# target to preprocess a source file
+boj2250.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2250.dir/build.make CMakeFiles/boj2250.dir/boj2250.i
 .PHONY : boj2250.i
 
-# target to preprocess a source file
-boj2250.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2250.dir/build.make CMakeFiles/boj2250.dir/boj2250.cpp.i
-.PHONY : boj2250.cpp.i
-
-boj2250.s: boj2250.cpp.s
-
+# target to generate assembly for a file
+boj2250.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2250.dir/build.make CMakeFiles/boj2250.dir/boj2250.s
 .PHONY : boj2250.s
 
-# target to generate assembly for a file
-boj2250.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2250.dir/build.make CMakeFiles/boj2250.dir/boj2250.cpp.s
-.PHONY : boj2250.cpp.s
-
-boj2263.o: boj2263.cpp.o
-
+# target to build an object file
+boj2263.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2263.dir/build.make CMakeFiles/boj2263.dir/boj2263.o
 .PHONY : boj2263.o
 
-# target to build an object file
-boj2263.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2263.dir/build.make CMakeFiles/boj2263.dir/boj2263.cpp.o
-.PHONY : boj2263.cpp.o
-
-boj2263.i: boj2263.cpp.i
-
+# target to preprocess a source file
+boj2263.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2263.dir/build.make CMakeFiles/boj2263.dir/boj2263.i
 .PHONY : boj2263.i
 
-# target to preprocess a source file
-boj2263.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2263.dir/build.make CMakeFiles/boj2263.dir/boj2263.cpp.i
-.PHONY : boj2263.cpp.i
-
-boj2263.s: boj2263.cpp.s
-
+# target to generate assembly for a file
+boj2263.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2263.dir/build.make CMakeFiles/boj2263.dir/boj2263.s
 .PHONY : boj2263.s
 
-# target to generate assembly for a file
-boj2263.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2263.dir/build.make CMakeFiles/boj2263.dir/boj2263.cpp.s
-.PHONY : boj2263.cpp.s
-
-boj2517.o: boj2517.cpp.o
-
+# target to build an object file
+boj2517.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2517.dir/build.make CMakeFiles/boj2517.dir/boj2517.o
 .PHONY : boj2517.o
 
-# target to build an object file
-boj2517.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2517.dir/build.make CMakeFiles/boj2517.dir/boj2517.cpp.o
-.PHONY : boj2517.cpp.o
-
-boj2517.i: boj2517.cpp.i
-
+# target to preprocess a source file
+boj2517.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2517.dir/build.make CMakeFiles/boj2517.dir/boj2517.i
 .PHONY : boj2517.i
 
-# target to preprocess a source file
-boj2517.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2517.dir/build.make CMakeFiles/boj2517.dir/boj2517.cpp.i
-.PHONY : boj2517.cpp.i
-
-boj2517.s: boj2517.cpp.s
-
+# target to generate assembly for a file
+boj2517.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2517.dir/build.make CMakeFiles/boj2517.dir/boj2517.s
 .PHONY : boj2517.s
 
-# target to generate assembly for a file
-boj2517.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2517.dir/build.make CMakeFiles/boj2517.dir/boj2517.cpp.s
-.PHONY : boj2517.cpp.s
-
-boj2533-2.o: boj2533-2.cpp.o
-
+# target to build an object file
+boj2533-2.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2533-2.dir/build.make CMakeFiles/boj2533-2.dir/boj2533-2.o
 .PHONY : boj2533-2.o
 
-# target to build an object file
-boj2533-2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2533-2.dir/build.make CMakeFiles/boj2533-2.dir/boj2533-2.cpp.o
-.PHONY : boj2533-2.cpp.o
-
-boj2533-2.i: boj2533-2.cpp.i
-
+# target to preprocess a source file
+boj2533-2.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2533-2.dir/build.make CMakeFiles/boj2533-2.dir/boj2533-2.i
 .PHONY : boj2533-2.i
 
-# target to preprocess a source file
-boj2533-2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2533-2.dir/build.make CMakeFiles/boj2533-2.dir/boj2533-2.cpp.i
-.PHONY : boj2533-2.cpp.i
-
-boj2533-2.s: boj2533-2.cpp.s
-
+# target to generate assembly for a file
+boj2533-2.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2533-2.dir/build.make CMakeFiles/boj2533-2.dir/boj2533-2.s
 .PHONY : boj2533-2.s
 
-# target to generate assembly for a file
-boj2533-2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2533-2.dir/build.make CMakeFiles/boj2533-2.dir/boj2533-2.cpp.s
-.PHONY : boj2533-2.cpp.s
-
-boj2533.o: boj2533.cpp.o
-
+# target to build an object file
+boj2533.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2533.dir/build.make CMakeFiles/boj2533.dir/boj2533.o
 .PHONY : boj2533.o
 
-# target to build an object file
-boj2533.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2533.dir/build.make CMakeFiles/boj2533.dir/boj2533.cpp.o
-.PHONY : boj2533.cpp.o
-
-boj2533.i: boj2533.cpp.i
-
+# target to preprocess a source file
+boj2533.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2533.dir/build.make CMakeFiles/boj2533.dir/boj2533.i
 .PHONY : boj2533.i
 
-# target to preprocess a source file
-boj2533.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2533.dir/build.make CMakeFiles/boj2533.dir/boj2533.cpp.i
-.PHONY : boj2533.cpp.i
-
-boj2533.s: boj2533.cpp.s
-
+# target to generate assembly for a file
+boj2533.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2533.dir/build.make CMakeFiles/boj2533.dir/boj2533.s
 .PHONY : boj2533.s
 
-# target to generate assembly for a file
-boj2533.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2533.dir/build.make CMakeFiles/boj2533.dir/boj2533.cpp.s
-.PHONY : boj2533.cpp.s
-
-boj2798.o: boj2798.cpp.o
-
+# target to build an object file
+boj2798.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2798.dir/build.make CMakeFiles/boj2798.dir/boj2798.o
 .PHONY : boj2798.o
 
-# target to build an object file
-boj2798.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2798.dir/build.make CMakeFiles/boj2798.dir/boj2798.cpp.o
-.PHONY : boj2798.cpp.o
-
-boj2798.i: boj2798.cpp.i
-
+# target to preprocess a source file
+boj2798.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2798.dir/build.make CMakeFiles/boj2798.dir/boj2798.i
 .PHONY : boj2798.i
 
-# target to preprocess a source file
-boj2798.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2798.dir/build.make CMakeFiles/boj2798.dir/boj2798.cpp.i
-.PHONY : boj2798.cpp.i
-
-boj2798.s: boj2798.cpp.s
-
+# target to generate assembly for a file
+boj2798.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2798.dir/build.make CMakeFiles/boj2798.dir/boj2798.s
 .PHONY : boj2798.s
 
-# target to generate assembly for a file
-boj2798.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2798.dir/build.make CMakeFiles/boj2798.dir/boj2798.cpp.s
-.PHONY : boj2798.cpp.s
-
-boj2841.o: boj2841.cpp.o
-
+# target to build an object file
+boj2841.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2841.dir/build.make CMakeFiles/boj2841.dir/boj2841.o
 .PHONY : boj2841.o
 
-# target to build an object file
-boj2841.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2841.dir/build.make CMakeFiles/boj2841.dir/boj2841.cpp.o
-.PHONY : boj2841.cpp.o
-
-boj2841.i: boj2841.cpp.i
-
+# target to preprocess a source file
+boj2841.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2841.dir/build.make CMakeFiles/boj2841.dir/boj2841.i
 .PHONY : boj2841.i
 
-# target to preprocess a source file
-boj2841.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2841.dir/build.make CMakeFiles/boj2841.dir/boj2841.cpp.i
-.PHONY : boj2841.cpp.i
-
-boj2841.s: boj2841.cpp.s
-
+# target to generate assembly for a file
+boj2841.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2841.dir/build.make CMakeFiles/boj2841.dir/boj2841.s
 .PHONY : boj2841.s
 
-# target to generate assembly for a file
-boj2841.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj2841.dir/build.make CMakeFiles/boj2841.dir/boj2841.cpp.s
-.PHONY : boj2841.cpp.s
-
-boj3653-2.o: boj3653-2.cpp.o
-
+# target to build an object file
+boj3653-2.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj3653-2.dir/build.make CMakeFiles/boj3653-2.dir/boj3653-2.o
 .PHONY : boj3653-2.o
 
-# target to build an object file
-boj3653-2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj3653-2.dir/build.make CMakeFiles/boj3653-2.dir/boj3653-2.cpp.o
-.PHONY : boj3653-2.cpp.o
-
-boj3653-2.i: boj3653-2.cpp.i
-
+# target to preprocess a source file
+boj3653-2.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj3653-2.dir/build.make CMakeFiles/boj3653-2.dir/boj3653-2.i
 .PHONY : boj3653-2.i
 
-# target to preprocess a source file
-boj3653-2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj3653-2.dir/build.make CMakeFiles/boj3653-2.dir/boj3653-2.cpp.i
-.PHONY : boj3653-2.cpp.i
-
-boj3653-2.s: boj3653-2.cpp.s
-
+# target to generate assembly for a file
+boj3653-2.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj3653-2.dir/build.make CMakeFiles/boj3653-2.dir/boj3653-2.s
 .PHONY : boj3653-2.s
 
-# target to generate assembly for a file
-boj3653-2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj3653-2.dir/build.make CMakeFiles/boj3653-2.dir/boj3653-2.cpp.s
-.PHONY : boj3653-2.cpp.s
-
-boj3653.o: boj3653.cpp.o
-
+# target to build an object file
+boj3653.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj3653.dir/build.make CMakeFiles/boj3653.dir/boj3653.o
 .PHONY : boj3653.o
 
-# target to build an object file
-boj3653.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj3653.dir/build.make CMakeFiles/boj3653.dir/boj3653.cpp.o
-.PHONY : boj3653.cpp.o
-
-boj3653.i: boj3653.cpp.i
-
+# target to preprocess a source file
+boj3653.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj3653.dir/build.make CMakeFiles/boj3653.dir/boj3653.i
 .PHONY : boj3653.i
 
-# target to preprocess a source file
-boj3653.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj3653.dir/build.make CMakeFiles/boj3653.dir/boj3653.cpp.i
-.PHONY : boj3653.cpp.i
-
-boj3653.s: boj3653.cpp.s
-
+# target to generate assembly for a file
+boj3653.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj3653.dir/build.make CMakeFiles/boj3653.dir/boj3653.s
 .PHONY : boj3653.s
 
-# target to generate assembly for a file
-boj3653.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj3653.dir/build.make CMakeFiles/boj3653.dir/boj3653.cpp.s
-.PHONY : boj3653.cpp.s
-
-boj6549.o: boj6549.cpp.o
-
-.PHONY : boj6549.o
-
 # target to build an object file
-boj6549.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj6549.dir/build.make CMakeFiles/boj6549.dir/boj6549.cpp.o
-.PHONY : boj6549.cpp.o
-
-boj6549.i: boj6549.cpp.i
-
-.PHONY : boj6549.i
+boj5052.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj5052.dir/build.make CMakeFiles/boj5052.dir/boj5052.o
+.PHONY : boj5052.o
 
 # target to preprocess a source file
-boj6549.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj6549.dir/build.make CMakeFiles/boj6549.dir/boj6549.cpp.i
-.PHONY : boj6549.cpp.i
-
-boj6549.s: boj6549.cpp.s
-
-.PHONY : boj6549.s
+boj5052.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj5052.dir/build.make CMakeFiles/boj5052.dir/boj5052.i
+.PHONY : boj5052.i
 
 # target to generate assembly for a file
-boj6549.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj6549.dir/build.make CMakeFiles/boj6549.dir/boj6549.cpp.s
-.PHONY : boj6549.cpp.s
+boj5052.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj5052.dir/build.make CMakeFiles/boj5052.dir/boj5052.s
+.PHONY : boj5052.s
+
+# target to build an object file
+boj6549.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj6549.dir/build.make CMakeFiles/boj6549.dir/boj6549.o
+.PHONY : boj6549.o
+
+# target to preprocess a source file
+boj6549.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj6549.dir/build.make CMakeFiles/boj6549.dir/boj6549.i
+.PHONY : boj6549.i
+
+# target to generate assembly for a file
+boj6549.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj6549.dir/build.make CMakeFiles/boj6549.dir/boj6549.s
+.PHONY : boj6549.s
 
 # Help Target
 help:
@@ -1311,11 +1047,13 @@ help:
 	@echo "... boj14501"
 	@echo "... boj14725"
 	@echo "... boj15678"
+	@echo "... boj1717"
 	@echo "... boj1766"
 	@echo "... boj1780"
 	@echo "... boj1781"
 	@echo "... boj1932"
 	@echo "... boj19644"
+	@echo "... boj1976"
 	@echo "... boj2231"
 	@echo "... boj2250"
 	@echo "... boj2263"
@@ -1326,6 +1064,7 @@ help:
 	@echo "... boj2841"
 	@echo "... boj3653"
 	@echo "... boj3653-2"
+	@echo "... boj5052"
 	@echo "... boj6549"
 	@echo "... boj1010.o"
 	@echo "... boj1010.i"
@@ -1366,6 +1105,9 @@ help:
 	@echo "... boj15678.o"
 	@echo "... boj15678.i"
 	@echo "... boj15678.s"
+	@echo "... boj1717.o"
+	@echo "... boj1717.i"
+	@echo "... boj1717.s"
 	@echo "... boj1766.o"
 	@echo "... boj1766.i"
 	@echo "... boj1766.s"
@@ -1381,6 +1123,9 @@ help:
 	@echo "... boj19644.o"
 	@echo "... boj19644.i"
 	@echo "... boj19644.s"
+	@echo "... boj1976.o"
+	@echo "... boj1976.i"
+	@echo "... boj1976.s"
 	@echo "... boj2231.o"
 	@echo "... boj2231.i"
 	@echo "... boj2231.s"
@@ -1411,6 +1156,9 @@ help:
 	@echo "... boj3653.o"
 	@echo "... boj3653.i"
 	@echo "... boj3653.s"
+	@echo "... boj5052.o"
+	@echo "... boj5052.i"
+	@echo "... boj5052.s"
 	@echo "... boj6549.o"
 	@echo "... boj6549.i"
 	@echo "... boj6549.s"
