@@ -2,14 +2,13 @@ import sys
 
 cache = [[0 for i in range(1000000001)] for i in range(1000000001)]
 
-N, K = map(int, sys.stdin.readline().rstrip().split(" "))
+N, K = map(int, sys.stdin.readline().split(" "))
 K_set = sys.stdin.readline().rstrip()
 
 X_Y_set = []
 
-
 for i in range(N):
-    X, Y = map(int, sys.stdin.readline().rstrip().split(" "))
+    X, Y = map(int, sys.stdin.readline().split(" "))
     # X_Y_set.append([X, Y])
     cache[X][Y] = 1
 
@@ -18,3 +17,4 @@ for i in range(N):
 #     if direction == "B":
 #     if direction == "C":
 #     if direction == "D":
+
