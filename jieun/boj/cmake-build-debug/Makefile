@@ -235,6 +235,19 @@ boj2533/fast:
 .PHONY : boj2533/fast
 
 #=============================================================================
+# Target rules for targets named boj1697
+
+# Build rule for target.
+boj1697: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boj1697
+.PHONY : boj1697
+
+# fast build rule for target.
+boj1697/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1697.dir/build.make CMakeFiles/boj1697.dir/build
+.PHONY : boj1697/fast
+
+#=============================================================================
 # Target rules for targets named boj10870
 
 # Build rule for target.
@@ -521,6 +534,19 @@ boj1932/fast:
 .PHONY : boj1932/fast
 
 #=============================================================================
+# Target rules for targets named boj1202
+
+# Build rule for target.
+boj1202: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boj1202
+.PHONY : boj1202
+
+# fast build rule for target.
+boj1202/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1202.dir/build.make CMakeFiles/boj1202.dir/build
+.PHONY : boj1202/fast
+
+#=============================================================================
 # Target rules for targets named boj10872
 
 # Build rule for target.
@@ -678,6 +704,21 @@ boj11726.s:
 .PHONY : boj11726.s
 
 # target to build an object file
+boj1202.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1202.dir/build.make CMakeFiles/boj1202.dir/boj1202.o
+.PHONY : boj1202.o
+
+# target to preprocess a source file
+boj1202.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1202.dir/build.make CMakeFiles/boj1202.dir/boj1202.i
+.PHONY : boj1202.i
+
+# target to generate assembly for a file
+boj1202.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1202.dir/build.make CMakeFiles/boj1202.dir/boj1202.s
+.PHONY : boj1202.s
+
+# target to build an object file
 boj12486.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj12486.dir/build.make CMakeFiles/boj12486.dir/boj12486.o
 .PHONY : boj12486.o
@@ -766,6 +807,21 @@ boj15678.i:
 boj15678.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj15678.dir/build.make CMakeFiles/boj15678.dir/boj15678.s
 .PHONY : boj15678.s
+
+# target to build an object file
+boj1697.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1697.dir/build.make CMakeFiles/boj1697.dir/boj1697.o
+.PHONY : boj1697.o
+
+# target to preprocess a source file
+boj1697.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1697.dir/build.make CMakeFiles/boj1697.dir/boj1697.i
+.PHONY : boj1697.i
+
+# target to generate assembly for a file
+boj1697.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boj1697.dir/build.make CMakeFiles/boj1697.dir/boj1697.s
+.PHONY : boj1697.s
 
 # target to build an object file
 boj1717.o:
@@ -1097,12 +1153,14 @@ help:
 	@echo "... boj11053"
 	@echo "... boj11726"
 	@echo "... boj11726-2"
+	@echo "... boj1202"
 	@echo "... boj12486"
 	@echo "... boj13016"
 	@echo "... boj1406"
 	@echo "... boj14501"
 	@echo "... boj14725"
 	@echo "... boj15678"
+	@echo "... boj1697"
 	@echo "... boj1717"
 	@echo "... boj1766"
 	@echo "... boj1780"
@@ -1145,6 +1203,9 @@ help:
 	@echo "... boj11726.o"
 	@echo "... boj11726.i"
 	@echo "... boj11726.s"
+	@echo "... boj1202.o"
+	@echo "... boj1202.i"
+	@echo "... boj1202.s"
 	@echo "... boj12486.o"
 	@echo "... boj12486.i"
 	@echo "... boj12486.s"
@@ -1163,6 +1224,9 @@ help:
 	@echo "... boj15678.o"
 	@echo "... boj15678.i"
 	@echo "... boj15678.s"
+	@echo "... boj1697.o"
+	@echo "... boj1697.i"
+	@echo "... boj1697.s"
 	@echo "... boj1717.o"
 	@echo "... boj1717.i"
 	@echo "... boj1717.s"
